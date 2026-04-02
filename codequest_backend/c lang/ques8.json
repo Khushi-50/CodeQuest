@@ -1,0 +1,1471 @@
+{
+  "course": "C Programming",
+  "chapter": 8,
+  "chapter_name": "The Data Train (Arrays & Strings)",
+  "subtopics": [
+    {
+      "subtopic_id": 1,
+      "subtopic_name": "The Locker Row (1D Arrays)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Array Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What is an array?",
+              "options": [
+                "Collection of same type elements",
+                "Single variable",
+                "Loop"
+              ],
+              "answer": "Collection of same type elements",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Array stores?",
+              "options": [
+                "Multiple values",
+                "One value",
+                "Nothing"
+              ],
+              "answer": "Multiple values",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Array elements are accessed using?",
+              "options": [
+                "Index",
+                "Pointer",
+                "Loop"
+              ],
+              "answer": "Index",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Index starts from?",
+              "options": [
+                "0",
+                "1",
+                "-1"
+              ],
+              "answer": "0",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is correct declaration?",
+              "options": [
+                "int a[5];",
+                "int a;",
+                "array a[5];"
+              ],
+              "answer": "int a[5];",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "How many elements in a[5]?",
+              "options": [
+                "5",
+                "4",
+                "6"
+              ],
+              "answer": "5",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Array elements are of?",
+              "options": [
+                "Same type",
+                "Different types",
+                "Random"
+              ],
+              "answer": "Same type",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Indexing",
+          "questions": [
+            {
+              "id": 1,
+              "question": "First index of array?",
+              "options": [
+                "0",
+                "1",
+                "2"
+              ],
+              "answer": "0",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Last index of a[5]?",
+              "options": [
+                "4",
+                "5",
+                "3"
+              ],
+              "answer": "4",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "a[2] means?",
+              "options": [
+                "3rd element",
+                "2nd element",
+                "1st element"
+              ],
+              "answer": "3rd element",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Array index inside?",
+              "options": [
+                "[]",
+                "()",
+                "{}"
+              ],
+              "answer": "[]",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Accessing invalid index causes?",
+              "options": [
+                "Error/undefined",
+                "Success",
+                "Loop"
+              ],
+              "answer": "Error/undefined",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which is valid?",
+              "options": [
+                "a[0]",
+                "a(0)",
+                "a{0}"
+              ],
+              "answer": "a[0]",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Index is used to?",
+              "options": [
+                "Access element",
+                "Store type",
+                "Loop"
+              ],
+              "answer": "Access element",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Array Usage",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Arrays store?",
+              "options": [
+                "Multiple values",
+                "Single value",
+                "Nothing"
+              ],
+              "answer": "Multiple values",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Array type must be?",
+              "options": [
+                "Same",
+                "Different",
+                "Mixed"
+              ],
+              "answer": "Same",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which is an array?",
+              "options": [
+                "int a[3];",
+                "int a;",
+                "float;"
+              ],
+              "answer": "int a[3];",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "a[1] means?",
+              "options": [
+                "2nd element",
+                "1st element",
+                "3rd element"
+              ],
+              "answer": "2nd element",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Arrays are stored in?",
+              "options": [
+                "Continuous memory",
+                "Separate memory",
+                "Random"
+              ],
+              "answer": "Continuous memory",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which is correct size?",
+              "options": [
+                "int a[10];",
+                "int a;",
+                "int[10];"
+              ],
+              "answer": "int a[10];",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Array is useful for?",
+              "options": [
+                "Storing lists",
+                "Loops only",
+                "Printing"
+              ],
+              "answer": "Storing lists",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Array Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Array is?",
+              "options": [
+                "Collection",
+                "Single value",
+                "Loop"
+              ],
+              "answer": "Collection",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Index starts?",
+              "options": [
+                "0",
+                "1",
+                "2"
+              ],
+              "answer": "0",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Elements stored?",
+              "options": [
+                "Contiguously",
+                "Randomly",
+                "Separately"
+              ],
+              "answer": "Contiguously",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "a[0] means?",
+              "options": [
+                "First element",
+                "Second",
+                "Last"
+              ],
+              "answer": "First element",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Array index limit?",
+              "options": [
+                "0 to size-1",
+                "1 to size",
+                "0 to size"
+              ],
+              "answer": "0 to size-1",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Out of bounds leads to?",
+              "options": [
+                "Undefined behavior",
+                "Success",
+                "Loop"
+              ],
+              "answer": "Undefined behavior",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Array helps?",
+              "options": [
+                "Store multiple data",
+                "Single data",
+                "Loops"
+              ],
+              "answer": "Store multiple data",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 2,
+      "subtopic_name": "The Grid (2D Arrays)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "2D Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "2D array is?",
+              "options": [
+                "Array of arrays",
+                "Single value",
+                "Loop"
+              ],
+              "answer": "Array of arrays",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "2D arrays use?",
+              "options": [
+                "Rows & columns",
+                "Only rows",
+                "Only columns"
+              ],
+              "answer": "Rows & columns",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Access uses?",
+              "options": [
+                "a[i][j]",
+                "a[i]",
+                "a(j)"
+              ],
+              "answer": "a[i][j]",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Matrix is example of?",
+              "options": [
+                "2D array",
+                "1D array",
+                "Loop"
+              ],
+              "answer": "2D array",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Declaration example?",
+              "options": [
+                "int a[3][3];",
+                "int a[3];",
+                "int a;"
+              ],
+              "answer": "int a[3][3];",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Access row 1 col 2?",
+              "options": [
+                "a[1][2]",
+                "a[2][1]",
+                "a(1,2)"
+              ],
+              "answer": "a[1][2]",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "2D array stores?",
+              "options": [
+                "Table data",
+                "Single value",
+                "Loop"
+              ],
+              "answer": "Table data",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Grid Logic",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Rows represent?",
+              "options": [
+                "Horizontal",
+                "Vertical",
+                "None"
+              ],
+              "answer": "Horizontal",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Columns represent?",
+              "options": [
+                "Vertical",
+                "Horizontal",
+                "None"
+              ],
+              "answer": "Vertical",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "a[2][3] means?",
+              "options": [
+                "Row 2 col 3",
+                "Row 3 col 2",
+                "Index 5"
+              ],
+              "answer": "Row 2 col 3",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "2D arrays use?",
+              "options": [
+                "Nested loops",
+                "Single loop",
+                "No loop"
+              ],
+              "answer": "Nested loops",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Total elements in 2x3?",
+              "options": [
+                "6",
+                "5",
+                "3"
+              ],
+              "answer": "6",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "2D stored in?",
+              "options": [
+                "Continuous memory",
+                "Random",
+                "Separate"
+              ],
+              "answer": "Continuous memory",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "2D array is useful for?",
+              "options": [
+                "Tables",
+                "Single value",
+                "Loop"
+              ],
+              "answer": "Tables",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "2D Traversal",
+          "questions": [
+            {
+              "id": 1,
+              "question": "A 2D array is like a?",
+              "options": [
+                "Table",
+                "Single box",
+                "Pointer keyword"
+              ],
+              "answer": "Table",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "2D arrays are usually processed with?",
+              "options": [
+                "Nested loops",
+                "No loops",
+                "Only switch"
+              ],
+              "answer": "Nested loops",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which access is correct for row i and column j?",
+              "options": [
+                "a[i][j]",
+                "a[j]",
+                "a(i,j)"
+              ],
+              "answer": "a[i][j]",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "The first index usually selects the?",
+              "options": [
+                "Row",
+                "Column only",
+                "Header"
+              ],
+              "answer": "Row",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "The second index usually selects the?",
+              "options": [
+                "Column",
+                "Course",
+                "Compiler"
+              ],
+              "answer": "Column",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "A 3 x 4 array has how many elements?",
+              "options": [
+                "12",
+                "7",
+                "24"
+              ],
+              "answer": "12",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "2D arrays are useful for matrices and?",
+              "options": [
+                "Tables",
+                "Only strings",
+                "Comments"
+              ],
+              "answer": "Tables",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "2D Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "A 2D array is like a?",
+              "options": [
+                "Table",
+                "Single box",
+                "Pointer keyword"
+              ],
+              "answer": "Table",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "2D arrays are usually processed with?",
+              "options": [
+                "Nested loops",
+                "No loops",
+                "Only switch"
+              ],
+              "answer": "Nested loops",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which access is correct for row i and column j?",
+              "options": [
+                "a[i][j]",
+                "a[j]",
+                "a(i,j)"
+              ],
+              "answer": "a[i][j]",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "The first index usually selects the?",
+              "options": [
+                "Row",
+                "Column only",
+                "Header"
+              ],
+              "answer": "Row",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "The second index usually selects the?",
+              "options": [
+                "Column",
+                "Course",
+                "Compiler"
+              ],
+              "answer": "Column",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "A 3 x 4 array has how many elements?",
+              "options": [
+                "12",
+                "7",
+                "24"
+              ],
+              "answer": "12",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "2D arrays are useful for matrices and?",
+              "options": [
+                "Tables",
+                "Only strings",
+                "Comments"
+              ],
+              "answer": "Tables",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    },
+    {
+      "subtopic_id": 3,
+      "subtopic_name": "The Secret Null",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Strings Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "String is?",
+              "options": [
+                "Char array",
+                "Integer",
+                "Loop"
+              ],
+              "answer": "Char array",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "String ends with?",
+              "options": [
+                "\\0",
+                "\\n",
+                " "
+              ],
+              "answer": "\\0",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Null character means?",
+              "options": [
+                "End of string",
+                "Space",
+                "Loop"
+              ],
+              "answer": "End of string",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "char s[] = \"Hi\" size?",
+              "options": [
+                "3",
+                "2",
+                "4"
+              ],
+              "answer": "3",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "\\0 is?",
+              "options": [
+                "Null terminator",
+                "Space",
+                "Letter"
+              ],
+              "answer": "Null terminator",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Without \\0 string is?",
+              "options": [
+                "Invalid",
+                "Valid",
+                "Loop"
+              ],
+              "answer": "Invalid",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "String stored in?",
+              "options": [
+                "Array",
+                "Loop",
+                "Header"
+              ],
+              "answer": "Array",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "Char Arrays As Strings",
+          "questions": [
+            {
+              "id": 1,
+              "question": "In C, a string is stored as a?",
+              "options": [
+                "Char array",
+                "Float array",
+                "Loop"
+              ],
+              "answer": "Char array",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What marks the end of a C string?",
+              "options": [
+                "\\0",
+                "\\n",
+                "EOF"
+              ],
+              "answer": "\\0",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Why is the null terminator important?",
+              "options": [
+                "It marks string end",
+                "It starts a loop",
+                "It stores type"
+              ],
+              "answer": "It marks string end",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "\"cat\" needs how many slots including terminator?",
+              "options": [
+                "4",
+                "3",
+                "5"
+              ],
+              "answer": "4",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "If \\0 is missing, string functions may read?",
+              "options": [
+                "Past the intended text",
+                "Only one char",
+                "Nothing at all"
+              ],
+              "answer": "Past the intended text",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "String handling bugs often come from wrong?",
+              "options": [
+                "Sizes",
+                "Comments",
+                "Chapter names"
+              ],
+              "answer": "Sizes",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "The secret null is usually stored but not?",
+              "options": [
+                "Printed",
+                "Allocated",
+                "Indexed"
+              ],
+              "answer": "Printed",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "String Input And Storage",
+          "questions": [
+            {
+              "id": 1,
+              "question": "In C, a string is stored as a?",
+              "options": [
+                "Char array",
+                "Float array",
+                "Loop"
+              ],
+              "answer": "Char array",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What marks the end of a C string?",
+              "options": [
+                "\\0",
+                "\\n",
+                "EOF"
+              ],
+              "answer": "\\0",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Why is the null terminator important?",
+              "options": [
+                "It marks string end",
+                "It starts a loop",
+                "It stores type"
+              ],
+              "answer": "It marks string end",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "\"cat\" needs how many slots including terminator?",
+              "options": [
+                "4",
+                "3",
+                "5"
+              ],
+              "answer": "4",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "If \\0 is missing, string functions may read?",
+              "options": [
+                "Past the intended text",
+                "Only one char",
+                "Nothing at all"
+              ],
+              "answer": "Past the intended text",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "String handling bugs often come from wrong?",
+              "options": [
+                "Sizes",
+                "Comments",
+                "Chapter names"
+              ],
+              "answer": "Sizes",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "The secret null is usually stored but not?",
+              "options": [
+                "Printed",
+                "Allocated",
+                "Indexed"
+              ],
+              "answer": "Printed",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "String Terminator Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "In C, a string is stored as a?",
+              "options": [
+                "Char array",
+                "Float array",
+                "Loop"
+              ],
+              "answer": "Char array",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What marks the end of a C string?",
+              "options": [
+                "\\0",
+                "\\n",
+                "EOF"
+              ],
+              "answer": "\\0",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Why is the null terminator important?",
+              "options": [
+                "It marks string end",
+                "It starts a loop",
+                "It stores type"
+              ],
+              "answer": "It marks string end",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "\"cat\" needs how many slots including terminator?",
+              "options": [
+                "4",
+                "3",
+                "5"
+              ],
+              "answer": "4",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "If \\0 is missing, string functions may read?",
+              "options": [
+                "Past the intended text",
+                "Only one char",
+                "Nothing at all"
+              ],
+              "answer": "Past the intended text",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "String handling bugs often come from wrong?",
+              "options": [
+                "Sizes",
+                "Comments",
+                "Chapter names"
+              ],
+              "answer": "Sizes",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "The secret null is usually stored but not?",
+              "options": [
+                "Printed",
+                "Allocated",
+                "Indexed"
+              ],
+              "answer": "Printed",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    },
+    {
+      "subtopic_id": 4,
+      "subtopic_name": "The Toolbox",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "String Functions",
+          "questions": [
+            {
+              "id": 1,
+              "question": "strlen finds?",
+              "options": [
+                "Length",
+                "Copy",
+                "Join"
+              ],
+              "answer": "Length",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "strcpy does?",
+              "options": [
+                "Copy string",
+                "Find length",
+                "Join"
+              ],
+              "answer": "Copy string",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "strcat does?",
+              "options": [
+                "Join strings",
+                "Copy",
+                "Length"
+              ],
+              "answer": "Join strings",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which header needed?",
+              "options": [
+                "string.h",
+                "stdio.h",
+                "math.h"
+              ],
+              "answer": "string.h",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "strlen(\"Hi\") returns?",
+              "options": [
+                "2",
+                "3",
+                "1"
+              ],
+              "answer": "2",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "strcpy(dest, src) does?",
+              "options": [
+                "Copy src to dest",
+                "Join",
+                "Delete"
+              ],
+              "answer": "Copy src to dest",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "strcat adds?",
+              "options": [
+                "Second string to first",
+                "Deletes",
+                "Copies"
+              ],
+              "answer": "Second string to first",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "Comparing Strings",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which function compares strings?",
+              "options": [
+                "strcmp",
+                "strlen",
+                "strcpy"
+              ],
+              "answer": "strcmp",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which function copies a string?",
+              "options": [
+                "strcpy",
+                "strcmp",
+                "malloc"
+              ],
+              "answer": "strcpy",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which function joins strings?",
+              "options": [
+                "strcat",
+                "strcpy",
+                "printf"
+              ],
+              "answer": "strcat",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which function gives string length?",
+              "options": [
+                "strlen",
+                "strcat",
+                "scanf"
+              ],
+              "answer": "strlen",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which header contains common string functions?",
+              "options": [
+                "string.h",
+                "math.h",
+                "time.h"
+              ],
+              "answer": "string.h",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Destination arrays for strcpy and strcat need enough?",
+              "options": [
+                "Space",
+                "Comments",
+                "Loops"
+              ],
+              "answer": "Space",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "String library functions should still be used?",
+              "options": [
+                "Carefully",
+                "Randomly",
+                "Without sizes"
+              ],
+              "answer": "Carefully",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "String Handling Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which function compares strings?",
+              "options": [
+                "strcmp",
+                "strlen",
+                "strcpy"
+              ],
+              "answer": "strcmp",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which function copies a string?",
+              "options": [
+                "strcpy",
+                "strcmp",
+                "malloc"
+              ],
+              "answer": "strcpy",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which function joins strings?",
+              "options": [
+                "strcat",
+                "strcpy",
+                "printf"
+              ],
+              "answer": "strcat",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which function gives string length?",
+              "options": [
+                "strlen",
+                "strcat",
+                "scanf"
+              ],
+              "answer": "strlen",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which header contains common string functions?",
+              "options": [
+                "string.h",
+                "math.h",
+                "time.h"
+              ],
+              "answer": "string.h",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Destination arrays for strcpy and strcat need enough?",
+              "options": [
+                "Space",
+                "Comments",
+                "Loops"
+              ],
+              "answer": "Space",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "String library functions should still be used?",
+              "options": [
+                "Carefully",
+                "Randomly",
+                "Without sizes"
+              ],
+              "answer": "Carefully",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Toolbox Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which function compares strings?",
+              "options": [
+                "strcmp",
+                "strlen",
+                "strcpy"
+              ],
+              "answer": "strcmp",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which function copies a string?",
+              "options": [
+                "strcpy",
+                "strcmp",
+                "malloc"
+              ],
+              "answer": "strcpy",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which function joins strings?",
+              "options": [
+                "strcat",
+                "strcpy",
+                "printf"
+              ],
+              "answer": "strcat",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which function gives string length?",
+              "options": [
+                "strlen",
+                "strcat",
+                "scanf"
+              ],
+              "answer": "strlen",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which header contains common string functions?",
+              "options": [
+                "string.h",
+                "math.h",
+                "time.h"
+              ],
+              "answer": "string.h",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Destination arrays for strcpy and strcat need enough?",
+              "options": [
+                "Space",
+                "Comments",
+                "Loops"
+              ],
+              "answer": "Space",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "String library functions should still be used?",
+              "options": [
+                "Carefully",
+                "Randomly",
+                "Without sizes"
+              ],
+              "answer": "Carefully",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    }
+  ]
+}

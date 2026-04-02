@@ -1,0 +1,1471 @@
+{
+  "course": "C Programming",
+  "chapter": 10,
+  "chapter_name": "The Warehouse (Memory Management)",
+  "subtopics": [
+    {
+      "subtopic_id": 1,
+      "subtopic_name": "Static vs Dynamic",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Memory Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Static memory is allocated?",
+              "options": [
+                "Compile time",
+                "Run time",
+                "Never"
+              ],
+              "answer": "Compile time",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Dynamic memory is allocated?",
+              "options": [
+                "Run time",
+                "Compile time",
+                "Loop time"
+              ],
+              "answer": "Run time",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Static size is?",
+              "options": [
+                "Fixed",
+                "Flexible",
+                "Unknown"
+              ],
+              "answer": "Fixed",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Dynamic size is?",
+              "options": [
+                "Flexible",
+                "Fixed",
+                "Zero"
+              ],
+              "answer": "Flexible",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is more flexible?",
+              "options": [
+                "Dynamic",
+                "Static",
+                "None"
+              ],
+              "answer": "Dynamic",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Static memory cannot?",
+              "options": [
+                "Change size",
+                "Store data",
+                "Run"
+              ],
+              "answer": "Change size",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dynamic memory uses?",
+              "options": [
+                "Heap",
+                "Stack",
+                "CPU"
+              ],
+              "answer": "Heap",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Memory Types",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Static memory is?",
+              "options": [
+                "Fixed size",
+                "Flexible",
+                "Random"
+              ],
+              "answer": "Fixed size",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Dynamic memory is?",
+              "options": [
+                "Flexible",
+                "Fixed",
+                "Loop"
+              ],
+              "answer": "Flexible",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Heap is used for?",
+              "options": [
+                "Dynamic memory",
+                "Static",
+                "Loop"
+              ],
+              "answer": "Dynamic memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Stack is used for?",
+              "options": [
+                "Static memory",
+                "Dynamic",
+                "Loop"
+              ],
+              "answer": "Static memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Dynamic memory allocated using?",
+              "options": [
+                "Functions",
+                "Loops",
+                "Switch"
+              ],
+              "answer": "Functions",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Static memory allocated automatically?",
+              "options": [
+                "Yes",
+                "No",
+                "Sometimes"
+              ],
+              "answer": "Yes",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dynamic memory controlled by?",
+              "options": [
+                "Programmer",
+                "Compiler",
+                "OS"
+              ],
+              "answer": "Programmer",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Memory Comparison",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Static memory size?",
+              "options": [
+                "Fixed",
+                "Flexible",
+                "Random"
+              ],
+              "answer": "Fixed",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Dynamic memory size?",
+              "options": [
+                "Flexible",
+                "Fixed",
+                "None"
+              ],
+              "answer": "Flexible",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Dynamic allocated when?",
+              "options": [
+                "Runtime",
+                "Compile time",
+                "Loop"
+              ],
+              "answer": "Runtime",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Static allocated when?",
+              "options": [
+                "Compile time",
+                "Runtime",
+                "Loop"
+              ],
+              "answer": "Compile time",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which avoids waste?",
+              "options": [
+                "Dynamic",
+                "Static",
+                "None"
+              ],
+              "answer": "Dynamic",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which is less flexible?",
+              "options": [
+                "Static",
+                "Dynamic",
+                "Both"
+              ],
+              "answer": "Static",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dynamic memory stored in?",
+              "options": [
+                "Heap",
+                "Stack",
+                "Register"
+              ],
+              "answer": "Heap",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Memory Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Static memory?",
+              "options": [
+                "Fixed",
+                "Flexible",
+                "None"
+              ],
+              "answer": "Fixed",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Dynamic memory?",
+              "options": [
+                "Flexible",
+                "Fixed",
+                "Loop"
+              ],
+              "answer": "Flexible",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Dynamic allocated?",
+              "options": [
+                "Runtime",
+                "Compile",
+                "Loop"
+              ],
+              "answer": "Runtime",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Static allocated?",
+              "options": [
+                "Compile time",
+                "Runtime",
+                "Loop"
+              ],
+              "answer": "Compile time",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Best for changing size?",
+              "options": [
+                "Dynamic",
+                "Static",
+                "None"
+              ],
+              "answer": "Dynamic",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Static memory uses?",
+              "options": [
+                "Stack",
+                "Heap",
+                "Disk"
+              ],
+              "answer": "Stack",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dynamic memory controlled by?",
+              "options": [
+                "Programmer",
+                "Compiler",
+                "CPU"
+              ],
+              "answer": "Programmer",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 2,
+      "subtopic_name": "Malloc & Free",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Allocation Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "malloc is used for?",
+              "options": [
+                "Allocate memory",
+                "Free memory",
+                "Loop"
+              ],
+              "answer": "Allocate memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "free is used for?",
+              "options": [
+                "Release memory",
+                "Allocate memory",
+                "Loop"
+              ],
+              "answer": "Release memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "malloc returns?",
+              "options": [
+                "Pointer",
+                "Value",
+                "Loop"
+              ],
+              "answer": "Pointer",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Memory allocated in?",
+              "options": [
+                "Heap",
+                "Stack",
+                "CPU"
+              ],
+              "answer": "Heap",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which header needed?",
+              "options": [
+                "stdlib.h",
+                "stdio.h",
+                "string.h"
+              ],
+              "answer": "stdlib.h",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "malloc(size) returns?",
+              "options": [
+                "Address",
+                "Value",
+                "Loop"
+              ],
+              "answer": "Address",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "free prevents?",
+              "options": [
+                "Memory leak",
+                "Loop",
+                "Error"
+              ],
+              "answer": "Memory leak",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "Using malloc",
+          "questions": [
+            {
+              "id": 1,
+              "question": "malloc allocates memory at?",
+              "options": [
+                "Runtime",
+                "Compile time",
+                "Link time"
+              ],
+              "answer": "Runtime",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "malloc gets memory from the?",
+              "options": [
+                "Heap",
+                "Stack",
+                "ROM"
+              ],
+              "answer": "Heap",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "If malloc fails, it returns?",
+              "options": [
+                "NULL",
+                "A loop",
+                "A chapter name"
+              ],
+              "answer": "NULL",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "free is used to?",
+              "options": [
+                "Release allocated memory",
+                "Allocate memory",
+                "Compare strings"
+              ],
+              "answer": "Release allocated memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Why is free important?",
+              "options": [
+                "To avoid memory leaks",
+                "To print faster",
+                "To access members"
+              ],
+              "answer": "To avoid memory leaks",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "After free(p), a common safe step is?",
+              "options": [
+                "p = NULL;",
+                "*p = 0;",
+                "p = malloc;"
+              ],
+              "answer": "p = NULL;",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "malloc and free together manage dynamic memory?",
+              "options": [
+                "Lifetime",
+                "Headers",
+                "Quiz titles"
+              ],
+              "answer": "Lifetime",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "Using free",
+          "questions": [
+            {
+              "id": 1,
+              "question": "malloc allocates memory at?",
+              "options": [
+                "Runtime",
+                "Compile time",
+                "Link time"
+              ],
+              "answer": "Runtime",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "malloc gets memory from the?",
+              "options": [
+                "Heap",
+                "Stack",
+                "ROM"
+              ],
+              "answer": "Heap",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "If malloc fails, it returns?",
+              "options": [
+                "NULL",
+                "A loop",
+                "A chapter name"
+              ],
+              "answer": "NULL",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "free is used to?",
+              "options": [
+                "Release allocated memory",
+                "Allocate memory",
+                "Compare strings"
+              ],
+              "answer": "Release allocated memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Why is free important?",
+              "options": [
+                "To avoid memory leaks",
+                "To print faster",
+                "To access members"
+              ],
+              "answer": "To avoid memory leaks",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "After free(p), a common safe step is?",
+              "options": [
+                "p = NULL;",
+                "*p = 0;",
+                "p = malloc;"
+              ],
+              "answer": "p = NULL;",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "malloc and free together manage dynamic memory?",
+              "options": [
+                "Lifetime",
+                "Headers",
+                "Quiz titles"
+              ],
+              "answer": "Lifetime",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Allocation Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "malloc allocates memory at?",
+              "options": [
+                "Runtime",
+                "Compile time",
+                "Link time"
+              ],
+              "answer": "Runtime",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "malloc gets memory from the?",
+              "options": [
+                "Heap",
+                "Stack",
+                "ROM"
+              ],
+              "answer": "Heap",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "If malloc fails, it returns?",
+              "options": [
+                "NULL",
+                "A loop",
+                "A chapter name"
+              ],
+              "answer": "NULL",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "free is used to?",
+              "options": [
+                "Release allocated memory",
+                "Allocate memory",
+                "Compare strings"
+              ],
+              "answer": "Release allocated memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Why is free important?",
+              "options": [
+                "To avoid memory leaks",
+                "To print faster",
+                "To access members"
+              ],
+              "answer": "To avoid memory leaks",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "After free(p), a common safe step is?",
+              "options": [
+                "p = NULL;",
+                "*p = 0;",
+                "p = malloc;"
+              ],
+              "answer": "p = NULL;",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "malloc and free together manage dynamic memory?",
+              "options": [
+                "Lifetime",
+                "Headers",
+                "Quiz titles"
+              ],
+              "answer": "Lifetime",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    },
+    {
+      "subtopic_id": 3,
+      "subtopic_name": "Resizing (realloc)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Realloc Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "realloc is used for?",
+              "options": [
+                "Resize memory",
+                "Allocate",
+                "Free"
+              ],
+              "answer": "Resize memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "realloc works on?",
+              "options": [
+                "Dynamic memory",
+                "Static",
+                "Loop"
+              ],
+              "answer": "Dynamic memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "realloc can?",
+              "options": [
+                "Increase/decrease size",
+                "Only increase",
+                "Only decrease"
+              ],
+              "answer": "Increase/decrease size",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "realloc returns?",
+              "options": [
+                "Pointer",
+                "Value",
+                "Loop"
+              ],
+              "answer": "Pointer",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Old pointer must be?",
+              "options": [
+                "Used carefully",
+                "Ignored",
+                "Deleted"
+              ],
+              "answer": "Used carefully",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "realloc keeps old data?",
+              "options": [
+                "Yes",
+                "No",
+                "Sometimes"
+              ],
+              "answer": "Yes",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Used when?",
+              "options": [
+                "Size change needed",
+                "Loop",
+                "Print"
+              ],
+              "answer": "Size change needed",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "Growing Memory",
+          "questions": [
+            {
+              "id": 1,
+              "question": "realloc is used to?",
+              "options": [
+                "Resize dynamic memory",
+                "Allocate static memory",
+                "End loops"
+              ],
+              "answer": "Resize dynamic memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "realloc works on memory from the?",
+              "options": [
+                "Heap",
+                "Stack only",
+                "Registers"
+              ],
+              "answer": "Heap",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "realloc may return a?",
+              "options": [
+                "New pointer location",
+                "Loop counter",
+                "Struct keyword"
+              ],
+              "answer": "New pointer location",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Why store realloc result carefully?",
+              "options": [
+                "To avoid losing the old block on failure",
+                "To rename variables",
+                "To print arrays"
+              ],
+              "answer": "To avoid losing the old block on failure",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "realloc can increase or decrease?",
+              "options": [
+                "Size",
+                "Chapter count",
+                "Header names"
+              ],
+              "answer": "Size",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "A common use of realloc is a growing?",
+              "options": [
+                "Buffer",
+                "Comment block",
+                "Struct tag"
+              ],
+              "answer": "Buffer",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Resized memory should still eventually be?",
+              "options": [
+                "Freed",
+                "Ignored",
+                "Made static"
+              ],
+              "answer": "Freed",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "Realloc Safety",
+          "questions": [
+            {
+              "id": 1,
+              "question": "realloc is used to?",
+              "options": [
+                "Resize dynamic memory",
+                "Allocate static memory",
+                "End loops"
+              ],
+              "answer": "Resize dynamic memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "realloc works on memory from the?",
+              "options": [
+                "Heap",
+                "Stack only",
+                "Registers"
+              ],
+              "answer": "Heap",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "realloc may return a?",
+              "options": [
+                "New pointer location",
+                "Loop counter",
+                "Struct keyword"
+              ],
+              "answer": "New pointer location",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Why store realloc result carefully?",
+              "options": [
+                "To avoid losing the old block on failure",
+                "To rename variables",
+                "To print arrays"
+              ],
+              "answer": "To avoid losing the old block on failure",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "realloc can increase or decrease?",
+              "options": [
+                "Size",
+                "Chapter count",
+                "Header names"
+              ],
+              "answer": "Size",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "A common use of realloc is a growing?",
+              "options": [
+                "Buffer",
+                "Comment block",
+                "Struct tag"
+              ],
+              "answer": "Buffer",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Resized memory should still eventually be?",
+              "options": [
+                "Freed",
+                "Ignored",
+                "Made static"
+              ],
+              "answer": "Freed",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Resizing Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "realloc is used to?",
+              "options": [
+                "Resize dynamic memory",
+                "Allocate static memory",
+                "End loops"
+              ],
+              "answer": "Resize dynamic memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "realloc works on memory from the?",
+              "options": [
+                "Heap",
+                "Stack only",
+                "Registers"
+              ],
+              "answer": "Heap",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "realloc may return a?",
+              "options": [
+                "New pointer location",
+                "Loop counter",
+                "Struct keyword"
+              ],
+              "answer": "New pointer location",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Why store realloc result carefully?",
+              "options": [
+                "To avoid losing the old block on failure",
+                "To rename variables",
+                "To print arrays"
+              ],
+              "answer": "To avoid losing the old block on failure",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "realloc can increase or decrease?",
+              "options": [
+                "Size",
+                "Chapter count",
+                "Header names"
+              ],
+              "answer": "Size",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "A common use of realloc is a growing?",
+              "options": [
+                "Buffer",
+                "Comment block",
+                "Struct tag"
+              ],
+              "answer": "Buffer",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Resized memory should still eventually be?",
+              "options": [
+                "Freed",
+                "Ignored",
+                "Made static"
+              ],
+              "answer": "Freed",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    },
+    {
+      "subtopic_id": 4,
+      "subtopic_name": "The Leak",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Memory Leak",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Memory leak means?",
+              "options": [
+                "Unused allocated memory",
+                "Loop",
+                "Error"
+              ],
+              "answer": "Unused allocated memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Leak happens when?",
+              "options": [
+                "No free()",
+                "With free()",
+                "Loop"
+              ],
+              "answer": "No free()",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Leak causes?",
+              "options": [
+                "Memory waste",
+                "Speed",
+                "Loop"
+              ],
+              "answer": "Memory waste",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Avoid leak by?",
+              "options": [
+                "free()",
+                "malloc()",
+                "Loop"
+              ],
+              "answer": "free()",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Leak affects?",
+              "options": [
+                "Performance",
+                "Print",
+                "Loop"
+              ],
+              "answer": "Performance",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Continuous leaks lead to?",
+              "options": [
+                "Crash",
+                "Success",
+                "Loop"
+              ],
+              "answer": "Crash",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Good practice?",
+              "options": [
+                "Always free memory",
+                "Ignore",
+                "Loop"
+              ],
+              "answer": "Always free memory",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "Finding Leaks",
+          "questions": [
+            {
+              "id": 1,
+              "question": "A memory leak means allocated memory is not?",
+              "options": [
+                "Released",
+                "Printed",
+                "Sorted"
+              ],
+              "answer": "Released",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Leaks become worse when they happen?",
+              "options": [
+                "Repeatedly",
+                "Once in comments",
+                "Only at compile time"
+              ],
+              "answer": "Repeatedly",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Long-running programs with leaks may consume more?",
+              "options": [
+                "Memory",
+                "Headers",
+                "Keywords"
+              ],
+              "answer": "Memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which habit helps reduce leaks?",
+              "options": [
+                "Free memory after use",
+                "Allocate and forget",
+                "Ignore pointers"
+              ],
+              "answer": "Free memory after use",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Memory management includes allocation and?",
+              "options": [
+                "Cleanup",
+                "Concatenation",
+                "Typedef"
+              ],
+              "answer": "Cleanup",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Why do leaks matter in real software?",
+              "options": [
+                "They accumulate over time",
+                "They rename variables",
+                "They fix bugs"
+              ],
+              "answer": "They accumulate over time",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Good heap discipline means allocate and?",
+              "options": [
+                "Free",
+                "Print",
+                "Skip"
+              ],
+              "answer": "Free",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "Leak Prevention",
+          "questions": [
+            {
+              "id": 1,
+              "question": "A memory leak means allocated memory is not?",
+              "options": [
+                "Released",
+                "Printed",
+                "Sorted"
+              ],
+              "answer": "Released",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Leaks become worse when they happen?",
+              "options": [
+                "Repeatedly",
+                "Once in comments",
+                "Only at compile time"
+              ],
+              "answer": "Repeatedly",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Long-running programs with leaks may consume more?",
+              "options": [
+                "Memory",
+                "Headers",
+                "Keywords"
+              ],
+              "answer": "Memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which habit helps reduce leaks?",
+              "options": [
+                "Free memory after use",
+                "Allocate and forget",
+                "Ignore pointers"
+              ],
+              "answer": "Free memory after use",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Memory management includes allocation and?",
+              "options": [
+                "Cleanup",
+                "Concatenation",
+                "Typedef"
+              ],
+              "answer": "Cleanup",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Why do leaks matter in real software?",
+              "options": [
+                "They accumulate over time",
+                "They rename variables",
+                "They fix bugs"
+              ],
+              "answer": "They accumulate over time",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Good heap discipline means allocate and?",
+              "options": [
+                "Free",
+                "Print",
+                "Skip"
+              ],
+              "answer": "Free",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Memory Leak Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "A memory leak means allocated memory is not?",
+              "options": [
+                "Released",
+                "Printed",
+                "Sorted"
+              ],
+              "answer": "Released",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Leaks become worse when they happen?",
+              "options": [
+                "Repeatedly",
+                "Once in comments",
+                "Only at compile time"
+              ],
+              "answer": "Repeatedly",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Long-running programs with leaks may consume more?",
+              "options": [
+                "Memory",
+                "Headers",
+                "Keywords"
+              ],
+              "answer": "Memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which habit helps reduce leaks?",
+              "options": [
+                "Free memory after use",
+                "Allocate and forget",
+                "Ignore pointers"
+              ],
+              "answer": "Free memory after use",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Memory management includes allocation and?",
+              "options": [
+                "Cleanup",
+                "Concatenation",
+                "Typedef"
+              ],
+              "answer": "Cleanup",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Why do leaks matter in real software?",
+              "options": [
+                "They accumulate over time",
+                "They rename variables",
+                "They fix bugs"
+              ],
+              "answer": "They accumulate over time",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Good heap discipline means allocate and?",
+              "options": [
+                "Free",
+                "Print",
+                "Skip"
+              ],
+              "answer": "Free",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    }
+  ]
+}

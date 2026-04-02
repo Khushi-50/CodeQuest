@@ -1,0 +1,256 @@
+{
+  "course": "C Programming",
+  "chapter": 1,
+  "chapter_name": "The Skeleton (Program Structure)",
+  "subtopics": [
+    
+    {
+      "subtopic_id": 1,
+      "subtopic_name": "The Entry Point (main function)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Meet main()",
+          "questions": [
+            {"id": 1, "question": "Every C program starts from?", "options": ["start()", "main()", "run()"], "answer": "main()", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "main() is a?", "options": ["Variable", "Function", "Operator"], "answer": "Function", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "How many main() allowed?", "options": ["1", "2", "Many"], "answer": "1", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Correct syntax?", "options": ["main{}", "main()", "main[]"], "answer": "main()", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "If main() missing?", "options": ["Runs", "Error", "Ignored"], "answer": "Error", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "main() returns?", "options": ["int", "char", "float"], "answer": "int", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Program ends when?", "options": ["main ends", "printf", "include"], "answer": "main ends", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 2,
+          "quiz_title": "Execution Flow",
+          "questions": [
+            {"id": 1, "question": "Execution order?", "options": ["Top-down", "Bottom-up", "Random"], "answer": "Top-down", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Code runs inside?", "options": ["()", "{}", "[]"], "answer": "{}", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "main contains?", "options": ["Instructions", "Images", "Fonts"], "answer": "Instructions", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Statements separated by?", "options": [";", ",", ":"], "answer": ";", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Execution starts?", "options": ["main", "printf", "scanf"], "answer": "main", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Execution ends?", "options": ["main", "include", "loop"], "answer": "main", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Without main?", "options": ["Run", "Error", "Ignore"], "answer": "Error", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 3,
+          "quiz_title": "Structure Basics",
+          "questions": [
+            {"id": 1, "question": "main is followed by?", "options": ["()", "{}", "[]"], "answer": "()", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Code block starts with?", "options": ["{", "(", "["], "answer": "{", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Ends with?", "options": ["}", ")", "]"], "answer": "}", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "main is written in?", "options": ["Lowercase", "Uppercase", "Both"], "answer": "Lowercase", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Valid declaration?", "options": ["int main()", "main int()", "main int"], "answer": "int main()", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "main must be?", "options": ["Present", "Optional", "Hidden"], "answer": "Present", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "main defines?", "options": ["Start", "End", "Loop"], "answer": "Start", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 4,
+          "quiz_title": "Quick Check",
+          "questions": [
+            {"id": 1, "question": "Correct?", "options": ["main()", "Main()", "MAIN()"], "answer": "main()", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Compulsory?", "options": ["Yes", "No", "Maybe"], "answer": "Yes", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Contains?", "options": ["Statements", "Styles", "Images"], "answer": "Statements", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Program begins?", "options": ["main", "printf", "scanf"], "answer": "main", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Ends with?", "options": ["}", "{", "()"], "answer": "}", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Statements inside?", "options": ["{}", "()", "[]"], "answer": "{}", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "main is?", "options": ["Function", "Variable", "Operator"], "answer": "Function", "xp": 5, "incorrect": "0"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "subtopic_id": 2,
+      "subtopic_name": "Curly Braces {} (Code Blocks)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Understanding Braces",
+          "questions": [
+            {"id": 1, "question": "{} are called?", "options": ["Brackets", "Braces", "Parentheses"], "answer": "Braces", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "They define?", "options": ["Block", "Loop", "Variable"], "answer": "Block", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Start of block?", "options": ["{", "}", "()"], "answer": "{", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "End of block?", "options": ["}", "{", "()"], "answer": "}", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Missing braces?", "options": ["Error", "Works", "Ignored"], "answer": "Error", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Multiple statements inside?", "options": ["Yes", "No", "Only 1"], "answer": "Yes", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Used in?", "options": ["Functions", "Variables", "Headers"], "answer": "Functions", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 2,
+          "quiz_title": "Blocks in Action",
+          "questions": [
+            {"id": 1, "question": "Block contains?", "options": ["Statements", "Colors", "Fonts"], "answer": "Statements", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Nested blocks allowed?", "options": ["Yes", "No", "Sometimes"], "answer": "Yes", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Curly braces used in?", "options": ["if", "loop", "Both"], "answer": "Both", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Block begins?", "options": ["{", "(", "["], "answer": "{", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Block ends?", "options": ["}", "]", ")"], "answer": "}", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Used for grouping?", "options": ["Yes", "No", "Only loops"], "answer": "Yes", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Essential?", "options": ["Yes", "No", "Optional"], "answer": "Yes", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 3,
+          "quiz_title": "Fix the Blocks",
+          "questions": [
+            {"id": 1, "question": "Missing { causes?", "options": ["Error", "Warning", "Ignore"], "answer": "Error", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Extra } causes?", "options": ["Error", "Works", "Ignore"], "answer": "Error", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Blocks must be?", "options": ["Balanced", "Random", "Optional"], "answer": "Balanced", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Opening brace must match?", "options": ["Closing", "Loop", "Function"], "answer": "Closing", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Improper block?", "options": ["Error", "Fine", "Optional"], "answer": "Error", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Compiler checks?", "options": ["Balance", "Color", "Spacing"], "answer": "Balance", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Blocks group?", "options": ["Statements", "Variables", "Headers"], "answer": "Statements", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 4,
+          "quiz_title": "Brace Practice",
+          "questions": [
+            {"id": 1, "question": "{} used for?", "options": ["Blocks", "Loops", "Print"], "answer": "Blocks", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Correct block?", "options": ["{}", "{]", "[}"], "answer": "{}", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Block stores?", "options": ["Code", "Images", "Fonts"], "answer": "Code", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Blocks must?", "options": ["Match", "Ignore", "Random"], "answer": "Match", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Missing closing?", "options": ["Error", "Fine", "Ignore"], "answer": "Error", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Nested blocks?", "options": ["Allowed", "Not allowed", "Limited"], "answer": "Allowed", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Used in functions?", "options": ["Yes", "No", "Sometimes"], "answer": "Yes", "xp": 5, "incorrect": "0"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "subtopic_id": 3,
+      "subtopic_name": "#include and Headers",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Intro to #include",
+          "questions": [
+            {"id": 1, "question": "#include is?", "options": ["Directive", "Function", "Loop"], "answer": "Directive", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Used for?", "options": ["Libraries", "Variables", "Loops"], "answer": "Libraries", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "stdio.h contains?", "options": ["I/O", "Math", "Graphics"], "answer": "I/O", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Correct syntax?", "options": ["#include<stdio.h>", "#include stdio.h", "include<stdio.h>"], "answer": "#include<stdio.h>", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Without stdio.h printf?", "options": ["Error", "Works", "Ignore"], "answer": "Error", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "#include runs when?", "options": ["Before compile", "During run", "After run"], "answer": "Before compile", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Header files are?", "options": ["Libraries", "Variables", "Loops"], "answer": "Libraries", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 2,
+          "quiz_title": "Headers in Use",
+          "questions": [
+            {"id": 1, "question": "stdio stands for?", "options": ["Standard I/O", "System I/O", "Simple I/O"], "answer": "Standard I/O", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Used for input/output?", "options": ["stdio.h", "math.h", "conio.h"], "answer": "stdio.h", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "printf defined in?", "options": ["stdio.h", "math.h", "string.h"], "answer": "stdio.h", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "scanf defined in?", "options": ["stdio.h", "math.h", "time.h"], "answer": "stdio.h", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Header files contain?", "options": ["Functions", "Variables", "Loops"], "answer": "Functions", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Include is required?", "options": ["Yes", "No", "Optional"], "answer": "Yes", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Angle brackets used for?", "options": ["System files", "User files", "Loops"], "answer": "System files", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 3,
+          "quiz_title": "Fix Includes",
+          "questions": [
+            {"id": 1, "question": "Wrong syntax?", "options": ["#include<stdio.h>", "#include stdio.h", "#include<math.h>"], "answer": "#include stdio.h", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "#include must start with?", "options": ["#", "$", "@"], "answer": "#", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Missing include causes?", "options": ["Error", "Fine", "Ignore"], "answer": "Error", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Used at top?", "options": ["Yes", "No", "Sometimes"], "answer": "Yes", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Header extension?", "options": [".h", ".c", ".cpp"], "answer": ".h", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Multiple includes allowed?", "options": ["Yes", "No", "Only 1"], "answer": "Yes", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Include used before?", "options": ["main", "loop", "variable"], "answer": "main", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 4,
+          "quiz_title": "Header Practice",
+          "questions": [
+            {"id": 1, "question": "#include does?", "options": ["Adds library", "Deletes code", "Runs code"], "answer": "Adds library", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "stdio.h needed for?", "options": ["I/O", "Math", "Strings"], "answer": "I/O", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Correct?", "options": ["#include<stdio.h>", "include<stdio.h>", "#include stdio"], "answer": "#include<stdio.h>", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Placed where?", "options": ["Top", "Middle", "End"], "answer": "Top", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Required for printf?", "options": ["Yes", "No", "Optional"], "answer": "Yes", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Required for scanf?", "options": ["Yes", "No", "Optional"], "answer": "Yes", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Header contains?", "options": ["Functions", "Loops", "Variables"], "answer": "Functions", "xp": 5, "incorrect": "0"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "subtopic_id": 4,
+      "subtopic_name": "Putting It All Together",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Complete Program",
+          "questions": [
+            {"id": 1, "question": "Program starts with?", "options": ["#include", "main", "printf"], "answer": "#include", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Execution starts?", "options": ["main", "include", "printf"], "answer": "main", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Code inside?", "options": ["{}", "()", "[]"], "answer": "{}", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Ends with?", "options": ["}", "{", "()"], "answer": "}", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Missing main?", "options": ["Error", "Runs", "Ignore"], "answer": "Error", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Missing include?", "options": ["Error", "Runs", "Ignore"], "answer": "Error", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Statements end with?", "options": [";", ",", ":"], "answer": ";", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 2,
+          "quiz_title": "Order Matters",
+          "questions": [
+            {"id": 1, "question": "First line?", "options": ["#include", "main", "printf"], "answer": "#include", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Second?", "options": ["main", "printf", "loop"], "answer": "main", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Inside main?", "options": ["Code", "Header", "Library"], "answer": "Code", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Correct flow?", "options": ["Include→main→code", "main→include→code", "code→include→main"], "answer": "Include→main→code", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Wrong order?", "options": ["Error", "Works", "Ignore"], "answer": "Error", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Execution depends on?", "options": ["Order", "Color", "Spacing"], "answer": "Order", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Statements executed?", "options": ["Sequentially", "Random", "Reverse"], "answer": "Sequentially", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 3,
+          "quiz_title": "Fix the Program",
+          "questions": [
+            {"id": 1, "question": "Missing semicolon?", "options": ["Error", "Works", "Ignore"], "answer": "Error", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Missing brace?", "options": ["Error", "Works", "Ignore"], "answer": "Error", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Missing include?", "options": ["Error", "Works", "Ignore"], "answer": "Error", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Missing main?", "options": ["Error", "Works", "Ignore"], "answer": "Error", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Correct program must?", "options": ["Follow syntax", "Ignore syntax", "Random"], "answer": "Follow syntax", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Compiler checks?", "options": ["Syntax", "Color", "Fonts"], "answer": "Syntax", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Errors cause?", "options": ["Failure", "Success", "Ignore"], "answer": "Failure", "xp": 5, "incorrect": "0"}
+          ]
+        },
+
+        {
+          "quiz_id": 4,
+          "quiz_title": "Final Practice",
+          "questions": [
+            {"id": 1, "question": "Program starts?", "options": ["Include", "Main", "Print"], "answer": "Include", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Execution starts?", "options": ["Main", "Include", "Loop"], "answer": "Main", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Code inside?", "options": ["{}", "()", "[]"], "answer": "{}", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Statements end?", "options": [";", ",", ":"], "answer": ";", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Correct structure?", "options": ["Include→main→code", "main→include→code", "code→main"], "answer": "Include→main→code", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Program without syntax?", "options": ["Error", "Works", "Ignore"], "answer": "Error", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Program runs if?", "options": ["Correct syntax", "Random", "No rules"], "answer": "Correct syntax", "xp": 5, "incorrect": "0"}
+          ]
+        }
+      ]
+    }
+
+  ]
+}

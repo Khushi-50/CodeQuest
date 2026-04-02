@@ -1,0 +1,1471 @@
+{
+  "course": "C Programming",
+  "chapter": 7,
+  "chapter_name": "The GPS Map (Pointers - Part 1)",
+  "subtopics": [
+    {
+      "subtopic_id": 1,
+      "subtopic_name": "The Address (& operator)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Finding Address",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator gives the address of a variable?",
+              "options": [
+                "&",
+                "*",
+                "%"
+              ],
+              "answer": "&",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What does &x give?",
+              "options": [
+                "Address of x",
+                "Value of x",
+                "Type of x"
+              ],
+              "answer": "Address of x",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Where is a variable stored?",
+              "options": [
+                "Memory",
+                "Screen",
+                "Keyboard"
+              ],
+              "answer": "Memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Address refers to?",
+              "options": [
+                "Location in memory",
+                "Value",
+                "Loop"
+              ],
+              "answer": "Location in memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What type does & return?",
+              "options": [
+                "Address (pointer)",
+                "Integer",
+                "Character"
+              ],
+              "answer": "Address (pointer)",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Why use & operator?",
+              "options": [
+                "To access memory location",
+                "To print value",
+                "To compare"
+              ],
+              "answer": "To access memory location",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which is correct?",
+              "options": [
+                "&x",
+                "*x",
+                "x&"
+              ],
+              "answer": "&x",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Memory Concept",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Each variable has?",
+              "options": [
+                "Address",
+                "Loop",
+                "Header"
+              ],
+              "answer": "Address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Address is stored in?",
+              "options": [
+                "Memory",
+                "CPU",
+                "Keyboard"
+              ],
+              "answer": "Memory",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which gives location?",
+              "options": [
+                "&",
+                "*",
+                "+"
+              ],
+              "answer": "&",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Address is like?",
+              "options": [
+                "House number",
+                "Value",
+                "Loop"
+              ],
+              "answer": "House number",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Why important?",
+              "options": [
+                "Helps pointer work",
+                "Prints text",
+                "Loops"
+              ],
+              "answer": "Helps pointer work",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which returns address?",
+              "options": [
+                "&x",
+                "x",
+                "*x"
+              ],
+              "answer": "&x",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Address identifies?",
+              "options": [
+                "Variable location",
+                "Variable value",
+                "Type"
+              ],
+              "answer": "Variable location",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Address Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which symbol gives address?",
+              "options": [
+                "&",
+                "*",
+                "#"
+              ],
+              "answer": "&",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "& operator is called?",
+              "options": [
+                "Address-of",
+                "Dereference",
+                "Loop"
+              ],
+              "answer": "Address-of",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Address belongs to?",
+              "options": [
+                "Variable",
+                "Loop",
+                "Header"
+              ],
+              "answer": "Variable",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "&x returns?",
+              "options": [
+                "Memory location",
+                "Value",
+                "Type"
+              ],
+              "answer": "Memory location",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Address helps in?",
+              "options": [
+                "Pointer operations",
+                "Printing",
+                "Looping"
+              ],
+              "answer": "Pointer operations",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which stores address?",
+              "options": [
+                "Pointer",
+                "Variable",
+                "Loop"
+              ],
+              "answer": "Pointer",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Address is represented as?",
+              "options": [
+                "Hex value",
+                "String",
+                "Loop"
+              ],
+              "answer": "Hex value",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Address Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Address is unique?",
+              "options": [
+                "Yes",
+                "No",
+                "Sometimes"
+              ],
+              "answer": "Yes",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "& operator returns?",
+              "options": [
+                "Address",
+                "Value",
+                "Loop"
+              ],
+              "answer": "Address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Memory stores?",
+              "options": [
+                "Data",
+                "Loop",
+                "Header"
+              ],
+              "answer": "Data",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which shows location?",
+              "options": [
+                "&",
+                "*",
+                "+"
+              ],
+              "answer": "&",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which helps pointer initialization?",
+              "options": [
+                "&",
+                "*",
+                "%"
+              ],
+              "answer": "&",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Address is needed for?",
+              "options": [
+                "Pointer usage",
+                "Loops",
+                "Printing"
+              ],
+              "answer": "Pointer usage",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Address means?",
+              "options": [
+                "Memory location",
+                "Value",
+                "Type"
+              ],
+              "answer": "Memory location",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 2,
+      "subtopic_name": "The Pointer Box",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Pointer Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Pointer stores?",
+              "options": [
+                "Address",
+                "Value",
+                "Loop"
+              ],
+              "answer": "Address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which symbol defines pointer?",
+              "options": [
+                "*",
+                "&",
+                "%"
+              ],
+              "answer": "*",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "int *p means?",
+              "options": [
+                "Pointer to int",
+                "Integer",
+                "Loop"
+              ],
+              "answer": "Pointer to int",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Pointer variable stores?",
+              "options": [
+                "Address",
+                "Value",
+                "Type"
+              ],
+              "answer": "Address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "How to assign address?",
+              "options": [
+                "p = &x",
+                "p = x",
+                "p = *x"
+              ],
+              "answer": "p = &x",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Pointer type must match?",
+              "options": [
+                "Variable type",
+                "Loop",
+                "Header"
+              ],
+              "answer": "Variable type",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Pointer is?",
+              "options": [
+                "Variable storing address",
+                "Loop",
+                "Function"
+              ],
+              "answer": "Variable storing address",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "Pointer Variables",
+          "questions": [
+            {
+              "id": 1,
+              "question": "A pointer variable stores an?",
+              "options": [
+                "Address",
+                "Integer only",
+                "Loop header"
+              ],
+              "answer": "Address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which declaration makes a pointer to int?",
+              "options": [
+                "int *p;",
+                "int p*;",
+                "pointer int p;"
+              ],
+              "answer": "int *p;",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which assignment is correct for a pointer to x?",
+              "options": [
+                "p = &x;",
+                "p = x;",
+                "p = *x;"
+              ],
+              "answer": "p = &x;",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Why should pointer type match the pointed data?",
+              "options": [
+                "For correct memory interpretation",
+                "For comments",
+                "For loop speed"
+              ],
+              "answer": "For correct memory interpretation",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "An uninitialized pointer may contain a?",
+              "options": [
+                "Garbage address",
+                "Guaranteed NULL",
+                "Chapter name"
+              ],
+              "answer": "Garbage address",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "A safe initial value for a pointer can be?",
+              "options": [
+                "NULL",
+                "Random memory",
+                "A quiz title"
+              ],
+              "answer": "NULL",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "A pointer is basically a variable that stores a?",
+              "options": [
+                "Memory location",
+                "Function body",
+                "Header file"
+              ],
+              "answer": "Memory location",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "Matching Types",
+          "questions": [
+            {
+              "id": 1,
+              "question": "A pointer variable stores an?",
+              "options": [
+                "Address",
+                "Integer only",
+                "Loop header"
+              ],
+              "answer": "Address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which declaration makes a pointer to int?",
+              "options": [
+                "int *p;",
+                "int p*;",
+                "pointer int p;"
+              ],
+              "answer": "int *p;",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which assignment is correct for a pointer to x?",
+              "options": [
+                "p = &x;",
+                "p = x;",
+                "p = *x;"
+              ],
+              "answer": "p = &x;",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Why should pointer type match the pointed data?",
+              "options": [
+                "For correct memory interpretation",
+                "For comments",
+                "For loop speed"
+              ],
+              "answer": "For correct memory interpretation",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "An uninitialized pointer may contain a?",
+              "options": [
+                "Garbage address",
+                "Guaranteed NULL",
+                "Chapter name"
+              ],
+              "answer": "Garbage address",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "A safe initial value for a pointer can be?",
+              "options": [
+                "NULL",
+                "Random memory",
+                "A quiz title"
+              ],
+              "answer": "NULL",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "A pointer is basically a variable that stores a?",
+              "options": [
+                "Memory location",
+                "Function body",
+                "Header file"
+              ],
+              "answer": "Memory location",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Pointer Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "A pointer variable stores an?",
+              "options": [
+                "Address",
+                "Integer only",
+                "Loop header"
+              ],
+              "answer": "Address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which declaration makes a pointer to int?",
+              "options": [
+                "int *p;",
+                "int p*;",
+                "pointer int p;"
+              ],
+              "answer": "int *p;",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which assignment is correct for a pointer to x?",
+              "options": [
+                "p = &x;",
+                "p = x;",
+                "p = *x;"
+              ],
+              "answer": "p = &x;",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Why should pointer type match the pointed data?",
+              "options": [
+                "For correct memory interpretation",
+                "For comments",
+                "For loop speed"
+              ],
+              "answer": "For correct memory interpretation",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "An uninitialized pointer may contain a?",
+              "options": [
+                "Garbage address",
+                "Guaranteed NULL",
+                "Chapter name"
+              ],
+              "answer": "Garbage address",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "A safe initial value for a pointer can be?",
+              "options": [
+                "NULL",
+                "Random memory",
+                "A quiz title"
+              ],
+              "answer": "NULL",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "A pointer is basically a variable that stores a?",
+              "options": [
+                "Memory location",
+                "Function body",
+                "Header file"
+              ],
+              "answer": "Memory location",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    },
+    {
+      "subtopic_id": 3,
+      "subtopic_name": "Peeking Inside (Dereferencing)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Dereference Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "* operator is used for?",
+              "options": [
+                "Dereferencing",
+                "Address",
+                "Loop"
+              ],
+              "answer": "Dereferencing",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "*p gives?",
+              "options": [
+                "Value at address",
+                "Address",
+                "Type"
+              ],
+              "answer": "Value at address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Dereferencing means?",
+              "options": [
+                "Access value using address",
+                "Store value",
+                "Loop"
+              ],
+              "answer": "Access value using address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "If p=&x, *p gives?",
+              "options": [
+                "x value",
+                "Address",
+                "Loop"
+              ],
+              "answer": "x value",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "*p = 10 does?",
+              "options": [
+                "Changes value of x",
+                "Changes address",
+                "Error"
+              ],
+              "answer": "Changes value of x",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Dereferencing allows?",
+              "options": [
+                "Modify original value",
+                "Print only",
+                "Loop"
+              ],
+              "answer": "Modify original value",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dereference uses?",
+              "options": [
+                "*",
+                "&",
+                "%"
+              ],
+              "answer": "*",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "Reading Through Pointers",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator dereferences a pointer?",
+              "options": [
+                "*",
+                "&",
+                "%"
+              ],
+              "answer": "*",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "If p points to x, then *p gives the?",
+              "options": [
+                "Value of x",
+                "Address of p",
+                "Type of x"
+              ],
+              "answer": "Value of x",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Dereferencing means accessing data using an?",
+              "options": [
+                "Address",
+                "Array size",
+                "Header name"
+              ],
+              "answer": "Address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "If p = &x, then *p = 10 will change?",
+              "options": [
+                "The value of x",
+                "The address of x",
+                "The type of x"
+              ],
+              "answer": "The value of x",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Dereferencing a NULL pointer is?",
+              "options": [
+                "Dangerous",
+                "Recommended",
+                "Required"
+              ],
+              "answer": "Dangerous",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Before using *p, p should be?",
+              "options": [
+                "Valid and initialized",
+                "Random",
+                "Negative"
+              ],
+              "answer": "Valid and initialized",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dereferencing allows indirect read and?",
+              "options": [
+                "Write access",
+                "Compilation only",
+                "Loop creation"
+              ],
+              "answer": "Write access",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "Writing Through Pointers",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator dereferences a pointer?",
+              "options": [
+                "*",
+                "&",
+                "%"
+              ],
+              "answer": "*",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "If p points to x, then *p gives the?",
+              "options": [
+                "Value of x",
+                "Address of p",
+                "Type of x"
+              ],
+              "answer": "Value of x",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Dereferencing means accessing data using an?",
+              "options": [
+                "Address",
+                "Array size",
+                "Header name"
+              ],
+              "answer": "Address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "If p = &x, then *p = 10 will change?",
+              "options": [
+                "The value of x",
+                "The address of x",
+                "The type of x"
+              ],
+              "answer": "The value of x",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Dereferencing a NULL pointer is?",
+              "options": [
+                "Dangerous",
+                "Recommended",
+                "Required"
+              ],
+              "answer": "Dangerous",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Before using *p, p should be?",
+              "options": [
+                "Valid and initialized",
+                "Random",
+                "Negative"
+              ],
+              "answer": "Valid and initialized",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dereferencing allows indirect read and?",
+              "options": [
+                "Write access",
+                "Compilation only",
+                "Loop creation"
+              ],
+              "answer": "Write access",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Dereference Safety",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator dereferences a pointer?",
+              "options": [
+                "*",
+                "&",
+                "%"
+              ],
+              "answer": "*",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "If p points to x, then *p gives the?",
+              "options": [
+                "Value of x",
+                "Address of p",
+                "Type of x"
+              ],
+              "answer": "Value of x",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Dereferencing means accessing data using an?",
+              "options": [
+                "Address",
+                "Array size",
+                "Header name"
+              ],
+              "answer": "Address",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "If p = &x, then *p = 10 will change?",
+              "options": [
+                "The value of x",
+                "The address of x",
+                "The type of x"
+              ],
+              "answer": "The value of x",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Dereferencing a NULL pointer is?",
+              "options": [
+                "Dangerous",
+                "Recommended",
+                "Required"
+              ],
+              "answer": "Dangerous",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Before using *p, p should be?",
+              "options": [
+                "Valid and initialized",
+                "Random",
+                "Negative"
+              ],
+              "answer": "Valid and initialized",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dereferencing allows indirect read and?",
+              "options": [
+                "Write access",
+                "Compilation only",
+                "Loop creation"
+              ],
+              "answer": "Write access",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    },
+    {
+      "subtopic_id": 4,
+      "subtopic_name": "The NULL Safety",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "NULL Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "NULL pointer means?",
+              "options": [
+                "Points to nothing",
+                "Points to value",
+                "Loop"
+              ],
+              "answer": "Points to nothing",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "NULL is used to?",
+              "options": [
+                "Initialize pointer safely",
+                "Print value",
+                "Loop"
+              ],
+              "answer": "Initialize pointer safely",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Dereferencing NULL causes?",
+              "options": [
+                "Crash",
+                "Success",
+                "Loop"
+              ],
+              "answer": "Crash",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is NULL pointer?",
+              "options": [
+                "p = NULL",
+                "p = 5",
+                "p = x"
+              ],
+              "answer": "p = NULL",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Why use NULL?",
+              "options": [
+                "Avoid garbage address",
+                "Speed",
+                "Loop"
+              ],
+              "answer": "Avoid garbage address",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Accessing NULL pointer?",
+              "options": [
+                "Dangerous",
+                "Safe",
+                "Normal"
+              ],
+              "answer": "Dangerous",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "NULL helps in?",
+              "options": [
+                "Safety",
+                "Looping",
+                "Printing"
+              ],
+              "answer": "Safety",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "Checking For NULL",
+          "questions": [
+            {
+              "id": 1,
+              "question": "A NULL pointer points to?",
+              "options": [
+                "Nothing valid",
+                "An integer",
+                "A loop"
+              ],
+              "answer": "Nothing valid",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Why initialize a pointer to NULL?",
+              "options": [
+                "For safety",
+                "For speed",
+                "For printing"
+              ],
+              "answer": "For safety",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Dereferencing NULL may cause a?",
+              "options": [
+                "Crash",
+                "Header include",
+                "String copy"
+              ],
+              "answer": "Crash",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which check is common before using p?",
+              "options": [
+                "p != NULL",
+                "p == int",
+                "p + 1"
+              ],
+              "answer": "p != NULL",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "After free(p), a common habit is?",
+              "options": [
+                "p = NULL;",
+                "*p = 0;",
+                "p = &free;"
+              ],
+              "answer": "p = NULL;",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "A function may return NULL to indicate?",
+              "options": [
+                "Failure or no result",
+                "Guaranteed success",
+                "A loop ended"
+              ],
+              "answer": "Failure or no result",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "NULL handling is part of defensive?",
+              "options": [
+                "Programming",
+                "Printing",
+                "Sorting"
+              ],
+              "answer": "Programming",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "NULL In Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "A NULL pointer points to?",
+              "options": [
+                "Nothing valid",
+                "An integer",
+                "A loop"
+              ],
+              "answer": "Nothing valid",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Why initialize a pointer to NULL?",
+              "options": [
+                "For safety",
+                "For speed",
+                "For printing"
+              ],
+              "answer": "For safety",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Dereferencing NULL may cause a?",
+              "options": [
+                "Crash",
+                "Header include",
+                "String copy"
+              ],
+              "answer": "Crash",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which check is common before using p?",
+              "options": [
+                "p != NULL",
+                "p == int",
+                "p + 1"
+              ],
+              "answer": "p != NULL",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "After free(p), a common habit is?",
+              "options": [
+                "p = NULL;",
+                "*p = 0;",
+                "p = &free;"
+              ],
+              "answer": "p = NULL;",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "A function may return NULL to indicate?",
+              "options": [
+                "Failure or no result",
+                "Guaranteed success",
+                "A loop ended"
+              ],
+              "answer": "Failure or no result",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "NULL handling is part of defensive?",
+              "options": [
+                "Programming",
+                "Printing",
+                "Sorting"
+              ],
+              "answer": "Programming",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Pointer Safety Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "A NULL pointer points to?",
+              "options": [
+                "Nothing valid",
+                "An integer",
+                "A loop"
+              ],
+              "answer": "Nothing valid",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Why initialize a pointer to NULL?",
+              "options": [
+                "For safety",
+                "For speed",
+                "For printing"
+              ],
+              "answer": "For safety",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Dereferencing NULL may cause a?",
+              "options": [
+                "Crash",
+                "Header include",
+                "String copy"
+              ],
+              "answer": "Crash",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which check is common before using p?",
+              "options": [
+                "p != NULL",
+                "p == int",
+                "p + 1"
+              ],
+              "answer": "p != NULL",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "After free(p), a common habit is?",
+              "options": [
+                "p = NULL;",
+                "*p = 0;",
+                "p = &free;"
+              ],
+              "answer": "p = NULL;",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "A function may return NULL to indicate?",
+              "options": [
+                "Failure or no result",
+                "Guaranteed success",
+                "A loop ended"
+              ],
+              "answer": "Failure or no result",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "NULL handling is part of defensive?",
+              "options": [
+                "Programming",
+                "Printing",
+                "Sorting"
+              ],
+              "answer": "Programming",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    }
+  ]
+}

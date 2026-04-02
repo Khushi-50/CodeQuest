@@ -1,0 +1,239 @@
+{
+   "course": "C Programming",
+  "chapter": 6,
+  "chapter_name": "The Blueprints (Functions)",
+  "subtopics": [
+    {
+      "subtopic_id": 1,
+      "subtopic_name": "The Lego Brick (Custom Functions)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Function Basics",
+          "questions": [
+            {"id": 1, "question": "What is a function?", "options": ["Reusable code block", "Loop", "Variable"], "answer": "Reusable code block", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Functions help to?", "options": ["Reuse code", "Print only", "Stop program"], "answer": "Reuse code", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Where is function code written?", "options": ["Inside {}", "Inside ()", "Inside []"], "answer": "Inside {}", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Which is correct function?", "options": ["int f(){ }", "f int(){ }", "function f"], "answer": "int f(){ }", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Functions reduce?", "options": ["Code repetition", "Memory", "Loops"], "answer": "Code repetition", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Function improves?", "options": ["Readability", "Errors", "Nothing"], "answer": "Readability", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Function is like?", "options": ["Lego block", "Loop", "Pointer"], "answer": "Lego block", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Calling Functions",
+          "questions": [
+            {"id": 1, "question": "How to use function?", "options": ["Call it", "Loop it", "Print it"], "answer": "Call it", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Function runs when?", "options": ["Called", "Declared", "Ignored"], "answer": "Called", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Function call uses?", "options": ["()", "{}", "[]"], "answer": "()", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Which calls function f?", "options": ["f()", "f{}", "f[]"], "answer": "f()", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Calling function executes?", "options": ["Its code", "Header", "Nothing"], "answer": "Its code", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Functions can be called?", "options": ["Many times", "Once only", "Never"], "answer": "Many times", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Function call is inside?", "options": ["main()", "header", "loop"], "answer": "main()", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Function Structure",
+          "questions": [
+            {"id": 1, "question": "Function has?", "options": ["Return type, name, body", "Loop only", "Header"], "answer": "Return type, name, body", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Return type defines?", "options": ["Output type", "Loop", "Variable"], "answer": "Output type", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Function body inside?", "options": ["{}", "()", "[]"], "answer": "{}", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Which defines function name?", "options": ["Identifier", "Loop", "Header"], "answer": "Identifier", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Return type must match?", "options": ["Returned value", "Loop", "Variable"], "answer": "Returned value", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Function body contains?", "options": ["Statements", "Header", "Loop"], "answer": "Statements", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Function supports?", "options": ["Modular coding", "Errors", "Loops"], "answer": "Modular coding", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Reuse Code",
+          "questions": [
+            {"id": 1, "question": "Functions avoid?", "options": ["Repeating code", "Loops", "Variables"], "answer": "Repeating code", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Reusable block is?", "options": ["Function", "Loop", "Array"], "answer": "Function", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Function defined by?", "options": ["Type + name", "Loop", "Switch"], "answer": "Type + name", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Functions improve?", "options": ["Clarity", "Errors", "Loops"], "answer": "Clarity", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Functions help debugging?", "options": ["Yes", "No", "Sometimes"], "answer": "Yes", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Function block enclosed in?", "options": ["{}", "()", "[]"], "answer": "{}", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Function is used for?", "options": ["Reusability", "Loop only", "Print only"], "answer": "Reusability", "xp": 5, "incorrect": "0"}
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 2,
+      "subtopic_name": "Handing Over Tools (Arguments)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Arguments Basics",
+          "questions": [
+            {"id": 1, "question": "Arguments are?", "options": ["Values passed to function", "Loops", "Headers"], "answer": "Values passed to function", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Arguments go inside?", "options": ["()", "{}", "[]"], "answer": "()", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Arguments help function?", "options": ["Use data", "Print only", "Stop"], "answer": "Use data", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Which passes value?", "options": ["f(5)", "f{}", "f[]"], "answer": "f(5)", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Arguments also called?", "options": ["Parameters", "Loops", "Headers"], "answer": "Parameters", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Arguments make function?", "options": ["Flexible", "Static", "Useless"], "answer": "Flexible", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Arguments separated by?", "options": [",", ";", ":"], "answer": ",", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Multiple Arguments",
+          "questions": [
+            {"id": 1, "question": "How many arguments can function take?", "options": ["Multiple", "One only", "None"], "answer": "Multiple", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Arguments order matters?", "options": ["Yes", "No", "Sometimes"], "answer": "Yes", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Arguments passed during?", "options": ["Call", "Declaration", "Compile"], "answer": "Call", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Correct call?", "options": ["f(2,3)", "f[2,3]", "f{2,3}"], "answer": "f(2,3)", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Arguments improve?", "options": ["Reusability", "Errors", "Loops"], "answer": "Reusability", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Parameters are defined in?", "options": ["Function definition", "Call", "Loop"], "answer": "Function definition", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Arguments represent?", "options": ["Actual values", "Types", "Loops"], "answer": "Actual values", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Arguments Practice",
+          "questions": [
+            {"id": 1, "question": "Arguments pass?", "options": ["Data", "Loops", "Headers"], "answer": "Data", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Arguments used in?", "options": ["Function call", "Loop", "Header"], "answer": "Function call", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Function without args?", "options": ["Allowed", "Not allowed", "Error"], "answer": "Allowed", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Arguments stored in?", "options": ["Parameters", "Loops", "Headers"], "answer": "Parameters", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Arguments improve?", "options": ["Flexibility", "Errors", "Loops"], "answer": "Flexibility", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Arguments type must match?", "options": ["Parameter type", "Loop", "Header"], "answer": "Parameter type", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Arguments separated by?", "options": [",", ";", ":"], "answer": ",", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Arguments Mastery",
+          "questions": [
+            {"id": 1, "question": "Arguments pass?", "options": ["Values", "Loops", "Headers"], "answer": "Values", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Used in?", "options": ["Function", "Loop", "Array"], "answer": "Function", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Arguments inside?", "options": ["()", "{}", "[]"], "answer": "()", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Parameters defined in?", "options": ["Function", "Call", "Loop"], "answer": "Function", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Arguments allow?", "options": ["Dynamic input", "Fixed code", "Loops"], "answer": "Dynamic input", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Correct argument passing?", "options": ["f(a)", "f[a]", "f{a}"], "answer": "f(a)", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Arguments help?", "options": ["Reusable logic", "Errors", "Loops"], "answer": "Reusable logic", "xp": 5, "incorrect": "0"}
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 3,
+      "subtopic_name": "Getting a Result (return)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Return Basics",
+          "questions": [
+            {"id": 1, "question": "return keyword does?", "options": ["Send value back", "Loop", "Print"], "answer": "Send value back", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Return ends?", "options": ["Function", "Loop", "Program"], "answer": "Function", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Return gives?", "options": ["Result", "Loop", "Header"], "answer": "Result", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Used inside?", "options": ["Function", "Loop", "Header"], "answer": "Function", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Return type must match?", "options": ["Returned value", "Loop", "Header"], "answer": "Returned value", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "return 0 means?", "options": ["Success", "Error", "Loop"], "answer": "Success", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Return sends?", "options": ["Value", "Loop", "Header"], "answer": "Value", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Return Practice",
+          "questions": [
+            {"id": 1, "question": "return is used in?", "options": ["Functions", "Loops", "Headers"], "answer": "Functions", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Return provides?", "options": ["Output", "Loop", "Variable"], "answer": "Output", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Function without return?", "options": ["void", "int", "char"], "answer": "void", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Return exits?", "options": ["Function", "Loop", "Header"], "answer": "Function", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Return used for?", "options": ["Passing result", "Loop", "Header"], "answer": "Passing result", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Return can send?", "options": ["Value", "Loop", "Header"], "answer": "Value", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Return improves?", "options": ["Modularity", "Errors", "Loops"], "answer": "Modularity", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Return Logic",
+          "questions": [
+            {"id": 1, "question": "Return type defines?", "options": ["Output", "Loop", "Header"], "answer": "Output", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Return ends execution?", "options": ["Yes", "No", "Sometimes"], "answer": "Yes", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "void means?", "options": ["No return", "Return int", "Loop"], "answer": "No return", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Return value type must?", "options": ["Match", "Mismatch", "Ignore"], "answer": "Match", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Return improves?", "options": ["Code reuse", "Errors", "Loops"], "answer": "Code reuse", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Return helps?", "options": ["Get result", "Loop", "Header"], "answer": "Get result", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Return used in?", "options": ["Functions", "Loops", "Arrays"], "answer": "Functions", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Return Mastery",
+          "questions": [
+            {"id": 1, "question": "Return keyword?", "options": ["return", "printf", "if"], "answer": "return", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Return gives?", "options": ["Output", "Loop", "Header"], "answer": "Output", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Ends function?", "options": ["Yes", "No", "Sometimes"], "answer": "Yes", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Used in?", "options": ["Function", "Loop", "Header"], "answer": "Function", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Return must match?", "options": ["Type", "Loop", "Header"], "answer": "Type", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Return used for?", "options": ["Result passing", "Loop", "Header"], "answer": "Result passing", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Return improves?", "options": ["Clarity", "Errors", "Loops"], "answer": "Clarity", "xp": 5, "incorrect": "0"}
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 4,
+      "subtopic_name": "Scope (Local vs Global)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Scope Basics",
+          "questions": [
+            {"id": 1, "question": "Scope means?", "options": ["Variable visibility", "Loop", "Header"], "answer": "Variable visibility", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Local variable exists?", "options": ["Inside function", "Everywhere", "Nowhere"], "answer": "Inside function", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Global variable exists?", "options": ["Everywhere", "Inside function", "Nowhere"], "answer": "Everywhere", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Local variable lifetime?", "options": ["Function execution", "Whole program", "Never"], "answer": "Function execution", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Global scope is?", "options": ["Wide", "Narrow", "None"], "answer": "Wide", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Local destroyed when?", "options": ["Function ends", "Start", "Never"], "answer": "Function ends", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Scope controls?", "options": ["Access", "Loop", "Header"], "answer": "Access", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Local vs Global",
+          "questions": [
+            {"id": 1, "question": "Local variable scope?", "options": ["Function only", "Everywhere", "Loop"], "answer": "Function only", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Global variable scope?", "options": ["Whole program", "Function", "Loop"], "answer": "Whole program", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Global declared?", "options": ["Outside functions", "Inside", "Loop"], "answer": "Outside functions", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Local declared?", "options": ["Inside function", "Outside", "Loop"], "answer": "Inside function", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Which is safer?", "options": ["Local", "Global", "Both"], "answer": "Local", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Global can be accessed?", "options": ["Anywhere", "Nowhere", "Loop"], "answer": "Anywhere", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Scope helps?", "options": ["Control access", "Loop", "Header"], "answer": "Control access", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Scope Practice",
+          "questions": [
+            {"id": 1, "question": "Scope defines?", "options": ["Visibility", "Loop", "Header"], "answer": "Visibility", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Local exists?", "options": ["Inside block", "Outside", "Loop"], "answer": "Inside block", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Global exists?", "options": ["Outside blocks", "Inside", "Loop"], "answer": "Outside blocks", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Local variable destroyed?", "options": ["After block", "Never", "Start"], "answer": "After block", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Which reduces bugs?", "options": ["Local variables", "Global", "Loop"], "answer": "Local variables", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Global variables may cause?", "options": ["Conflicts", "Speed", "Loop"], "answer": "Conflicts", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Scope ensures?", "options": ["Proper access", "Loop", "Header"], "answer": "Proper access", "xp": 5, "incorrect": "0"}
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Scope Mastery",
+          "questions": [
+            {"id": 1, "question": "Scope controls?", "options": ["Access", "Loop", "Header"], "answer": "Access", "xp": 5, "incorrect": "0"},
+            {"id": 2, "question": "Local variable?", "options": ["Limited scope", "Wide scope", "Loop"], "answer": "Limited scope", "xp": 5, "incorrect": "0"},
+            {"id": 3, "question": "Global variable?", "options": ["Wide scope", "Limited", "Loop"], "answer": "Wide scope", "xp": 5, "incorrect": "0"},
+            {"id": 4, "question": "Declared outside?", "options": ["Global", "Local", "Loop"], "answer": "Global", "xp": 5, "incorrect": "0"},
+            {"id": 5, "question": "Best practice?", "options": ["Use local when possible", "Use global always", "Ignore"], "answer": "Use local when possible", "xp": 7, "incorrect": "0"},
+            {"id": 6, "question": "Local lifetime?", "options": ["Temporary", "Permanent", "Loop"], "answer": "Temporary", "xp": 7, "incorrect": "0"},
+            {"id": 7, "question": "Scope improves?", "options": ["Code safety", "Loops", "Headers"], "answer": "Code safety", "xp": 5, "incorrect": "0"}
+          ]
+        }
+      ]
+    }
+  ]
+}

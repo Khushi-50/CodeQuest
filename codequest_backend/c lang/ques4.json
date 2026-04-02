@@ -1,0 +1,1471 @@
+{
+   "course": "C Programming",
+  "chapter": 4,
+  "chapter_name": "The Fork in the Road (Conditionals)",
+  "subtopics": [
+    {
+      "subtopic_id": 1,
+      "subtopic_name": "The If Gate",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "If Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword is used to make a decision in C?",
+              "options": [
+                "if",
+                "for",
+                "switch"
+              ],
+              "answer": "if",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What does an if statement check?",
+              "options": [
+                "A condition",
+                "A header file",
+                "A variable name"
+              ],
+              "answer": "A condition",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which symbol is used for equality comparison?",
+              "options": [
+                "=",
+                "==",
+                "!="
+              ],
+              "answer": "==",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What will run if the condition is true?",
+              "options": [
+                "The code inside the block",
+                "Nothing",
+                "The compiler"
+              ],
+              "answer": "The code inside the block",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is the correct if statement form?",
+              "options": [
+                "if (x > 5) { }",
+                "if x > 5 { }",
+                "if [x > 5] { }"
+              ],
+              "answer": "if (x > 5) { }",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What happens when an if condition is false and there is no else?",
+              "options": [
+                "The block is skipped",
+                "The program stops",
+                "It prints automatically"
+              ],
+              "answer": "The block is skipped",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which of these is a comparison condition?",
+              "options": [
+                "a > b",
+                "a = b",
+                "a + b"
+              ],
+              "answer": "a > b",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "True or Skip",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What does if mean in simple terms?",
+              "options": [
+                "Check a condition",
+                "Print a number",
+                "End the program"
+              ],
+              "answer": "Check a condition",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "If the condition is true, the block will?",
+              "options": [
+                "Run",
+                "Disappear",
+                "Compile twice"
+              ],
+              "answer": "Run",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "If the condition is false, the block will?",
+              "options": [
+                "Be skipped",
+                "Run anyway",
+                "Become a loop"
+              ],
+              "answer": "Be skipped",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which operator checks if two values are equal?",
+              "options": [
+                "==",
+                "=",
+                ">"
+              ],
+              "answer": "==",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which operator means greater than?",
+              "options": [
+                ">",
+                "<",
+                "!="
+              ],
+              "answer": ">",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which operator means less than?",
+              "options": [
+                "<",
+                ">",
+                "=="
+              ],
+              "answer": "<",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What does if (10 > 2) mean?",
+              "options": [
+                "The condition is true",
+                "The condition is false",
+                "It is an assignment"
+              ],
+              "answer": "The condition is true",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Decision Time",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword starts a basic decision?",
+              "options": [
+                "if",
+                "else",
+                "do"
+              ],
+              "answer": "if",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which part is checked first?",
+              "options": [
+                "Condition",
+                "Braces",
+                "Semicolon"
+              ],
+              "answer": "Condition",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What do braces { } hold in an if statement?",
+              "options": [
+                "The code to run",
+                "The variable name",
+                "The header file"
+              ],
+              "answer": "The code to run",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is a valid condition?",
+              "options": [
+                "x == 5",
+                "x = 5",
+                "x + 5"
+              ],
+              "answer": "x == 5",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What happens if a condition is true?",
+              "options": [
+                "Its block runs",
+                "Its block is deleted",
+                "Its block is ignored"
+              ],
+              "answer": "Its block runs",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What happens if a condition is false?",
+              "options": [
+                "Its block is skipped",
+                "Its block runs",
+                "The program crashes"
+              ],
+              "answer": "Its block is skipped",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which is used inside if to compare values?",
+              "options": [
+                "Comparison operator",
+                "Assignment operator",
+                "Header operator"
+              ],
+              "answer": "Comparison operator",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "If Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What does if help with?",
+              "options": [
+                "Decision making",
+                "Printing text",
+                "Creating arrays"
+              ],
+              "answer": "Decision making",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which block runs only when the condition is true?",
+              "options": [
+                "if block",
+                "header block",
+                "print block"
+              ],
+              "answer": "if block",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which is correct?",
+              "options": [
+                "if (age > 18) { }",
+                "if age > 18 [ ]",
+                "if age > 18 { }"
+              ],
+              "answer": "if (age > 18) { }",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does == mean?",
+              "options": [
+                "Equal to",
+                "Assign value",
+                "Not equal"
+              ],
+              "answer": "Equal to",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which operator means not equal?",
+              "options": [
+                "!=",
+                "==",
+                "="
+              ],
+              "answer": "!=",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which symbol is commonly used for greater than?",
+              "options": [
+                ">",
+                "<",
+                "="
+              ],
+              "answer": ">",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What is the main job of an if statement?",
+              "options": [
+                "To choose between actions",
+                "To print numbers",
+                "To declare variables"
+              ],
+              "answer": "To choose between actions",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 2,
+      "subtopic_name": "The Backup Plan",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "else Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword gives an alternate path when if fails?",
+              "options": [
+                "else",
+                "then",
+                "case"
+              ],
+              "answer": "else",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What does else do?",
+              "options": [
+                "Runs when if is false",
+                "Runs when if is true",
+                "Ends the program"
+              ],
+              "answer": "Runs when if is false",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Can if have an else?",
+              "options": [
+                "Yes",
+                "No",
+                "Only in functions"
+              ],
+              "answer": "Yes",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What is else if used for?",
+              "options": [
+                "Checking another condition",
+                "Printing text",
+                "Declaring variables"
+              ],
+              "answer": "Checking another condition",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is correct?",
+              "options": [
+                "if (...) { } else { }",
+                "if (...) { } then { }",
+                "if (...) [ ] else [ ]"
+              ],
+              "answer": "if (...) { } else { }",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does else if help with?",
+              "options": [
+                "Multiple checks",
+                "Only printing",
+                "Only assignment"
+              ],
+              "answer": "Multiple checks",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What happens if all if/else if conditions fail and else exists?",
+              "options": [
+                "Else runs",
+                "Program stops",
+                "Nothing happens"
+              ],
+              "answer": "Else runs",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Backup Choices",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword is the backup choice?",
+              "options": [
+                "else",
+                "if",
+                "switch"
+              ],
+              "answer": "else",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which one checks another condition?",
+              "options": [
+                "else if",
+                "else",
+                "main"
+              ],
+              "answer": "else if",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Can else appear alone?",
+              "options": [
+                "No, it follows if",
+                "Yes",
+                "Only in loops"
+              ],
+              "answer": "No, it follows if",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is used for a second test?",
+              "options": [
+                "else if",
+                "else",
+                "for"
+              ],
+              "answer": "else if",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What does else do after a false if?",
+              "options": [
+                "Runs backup code",
+                "Checks again",
+                "Stops the code"
+              ],
+              "answer": "Runs backup code",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which is more specific than else?",
+              "options": [
+                "else if",
+                "else",
+                "switch"
+              ],
+              "answer": "else if",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "How many else blocks can a normal if chain have?",
+              "options": [
+                "One",
+                "Many",
+                "Zero only"
+              ],
+              "answer": "One",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "If-Else Flow",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What runs when if is true?",
+              "options": [
+                "if block",
+                "else block",
+                "switch block"
+              ],
+              "answer": "if block",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What runs when if is false and else exists?",
+              "options": [
+                "else block",
+                "if block",
+                "Nothing"
+              ],
+              "answer": "else block",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What does else if check?",
+              "options": [
+                "Another condition",
+                "Only one value",
+                "A function name"
+              ],
+              "answer": "Another condition",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which keyword is used after if for an alternative?",
+              "options": [
+                "else",
+                "case",
+                "break"
+              ],
+              "answer": "else",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is correct flow?",
+              "options": [
+                "if -> else if -> else",
+                "else -> if -> case",
+                "switch -> if -> else"
+              ],
+              "answer": "if -> else if -> else",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does the final else usually represent?",
+              "options": [
+                "Default case",
+                "First condition",
+                "Loop end"
+              ],
+              "answer": "Default case",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "If if is false and else if is true, what runs?",
+              "options": [
+                "else if block",
+                "else block",
+                "Nothing"
+              ],
+              "answer": "else if block",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Fallback Mode",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What is else called in simple words?",
+              "options": [
+                "Backup plan",
+                "Loop body",
+                "Header"
+              ],
+              "answer": "Backup plan",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which runs only if all previous conditions fail?",
+              "options": [
+                "else",
+                "if",
+                "switch"
+              ],
+              "answer": "else",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which keyword checks a new condition after if?",
+              "options": [
+                "else if",
+                "else",
+                "break"
+              ],
+              "answer": "else if",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What is the purpose of else?",
+              "options": [
+                "Provide default action",
+                "Declare variable",
+                "End program"
+              ],
+              "answer": "Provide default action",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is the correct way to add a fallback?",
+              "options": [
+                "if (...) { } else { }",
+                "if (...) { } break { }",
+                "if (...) { } case { }"
+              ],
+              "answer": "if (...) { } else { }",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does else if help avoid?",
+              "options": [
+                "Too many nested ifs",
+                "Printing output",
+                "Using variables"
+              ],
+              "answer": "Too many nested ifs",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which block is optional in an if-else chain?",
+              "options": [
+                "else",
+                "if",
+                "condition"
+              ],
+              "answer": "else",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 3,
+      "subtopic_name": "The Remote Control",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "switch Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword is used for multi-choice selection?",
+              "options": [
+                "switch",
+                "if",
+                "return"
+              ],
+              "answer": "switch",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which keyword is used inside switch for each option?",
+              "options": [
+                "case",
+                "else",
+                "while"
+              ],
+              "answer": "case",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which keyword exits a case?",
+              "options": [
+                "break",
+                "stop",
+                "exit"
+              ],
+              "answer": "break",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What is the default section for?",
+              "options": [
+                "When no case matches",
+                "First case only",
+                "Loop control"
+              ],
+              "answer": "When no case matches",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is the correct switch structure?",
+              "options": [
+                "switch { case ... break; }",
+                "switch (x) { case 1: break; }",
+                "switch x [ case 1 ]"
+              ],
+              "answer": "switch (x) { case 1: break; }",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What happens if break is missing in a case?",
+              "options": [
+                "Fall-through may happen",
+                "Program always ends",
+                "Compiler adds it"
+              ],
+              "answer": "Fall-through may happen",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which operator is often used with menus?",
+              "options": [
+                "switch",
+                "+",
+                "%"
+              ],
+              "answer": "switch",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Menu Choice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What is switch used for?",
+              "options": [
+                "Choosing among many options",
+                "Adding numbers",
+                "Declaring variables"
+              ],
+              "answer": "Choosing among many options",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What label appears inside switch?",
+              "options": [
+                "case",
+                "else",
+                "then"
+              ],
+              "answer": "case",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which keyword is usually added after a case?",
+              "options": [
+                "break",
+                "include",
+                "main"
+              ],
+              "answer": "break",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does default do?",
+              "options": [
+                "Runs when no match is found",
+                "Stops all code",
+                "Declares the switch variable"
+              ],
+              "answer": "Runs when no match is found",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which statement is a multi-choice tool?",
+              "options": [
+                "switch",
+                "if",
+                "printf"
+              ],
+              "answer": "switch",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What is the purpose of break in switch?",
+              "options": [
+                "Exit the case",
+                "Start a case",
+                "Compare values"
+              ],
+              "answer": "Exit the case",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which is true about switch?",
+              "options": [
+                "It uses cases",
+                "It uses loops only",
+                "It replaces variables"
+              ],
+              "answer": "It uses cases",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Cases and Breaks",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword matches one option in a switch?",
+              "options": [
+                "case",
+                "else",
+                "if"
+              ],
+              "answer": "case",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What does break prevent?",
+              "options": [
+                "Falling into next case",
+                "Using default",
+                "Using switch"
+              ],
+              "answer": "Falling into next case",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What does default handle?",
+              "options": [
+                "No matching case",
+                "First case",
+                "All cases"
+              ],
+              "answer": "No matching case",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which keyword is part of a menu control structure?",
+              "options": [
+                "switch",
+                "float",
+                "char"
+              ],
+              "answer": "switch",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which code piece ends a case normally?",
+              "options": [
+                "break;",
+                "continue;",
+                "return only"
+              ],
+              "answer": "break;",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What is a switch better for?",
+              "options": [
+                "Many fixed choices",
+                "Simple addition",
+                "Variable naming"
+              ],
+              "answer": "Many fixed choices",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which section runs if nothing matches?",
+              "options": [
+                "default",
+                "case",
+                "break"
+              ],
+              "answer": "default",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Remote Style Choice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword starts this menu style?",
+              "options": [
+                "switch",
+                "if",
+                "else"
+              ],
+              "answer": "switch",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What comes after case in most switch examples?",
+              "options": [
+                "A value",
+                "A loop",
+                "A variable type"
+              ],
+              "answer": "A value",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What is a default case?",
+              "options": [
+                "Backup choice",
+                "First case",
+                "Main function"
+              ],
+              "answer": "Backup choice",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Why use switch instead of many ifs?",
+              "options": [
+                "Cleaner for many choices",
+                "It prints faster",
+                "It removes semicolons"
+              ],
+              "answer": "Cleaner for many choices",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which keyword ends a case cleanly?",
+              "options": [
+                "break",
+                "stop",
+                "go"
+              ],
+              "answer": "break",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What can happen without break?",
+              "options": [
+                "Fall-through",
+                "Auto default",
+                "Compilation speed-up"
+              ],
+              "answer": "Fall-through",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which statement is best for a menu with options 1, 2, 3?",
+              "options": [
+                "switch",
+                "single if",
+                "header"
+              ],
+              "answer": "switch",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 4,
+      "subtopic_name": "The Quick Choice",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Ternary Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator pair is used in the ternary operator?",
+              "options": [
+                "? :",
+                "== !",
+                "&& ||"
+              ],
+              "answer": "? :",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "The ternary operator is also called a:",
+              "options": [
+                "One-liner if",
+                "Loop",
+                "Header"
+              ],
+              "answer": "One-liner if",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "How many choices does ternary operator usually handle?",
+              "options": [
+                "Two",
+                "Three",
+                "Five"
+              ],
+              "answer": "Two",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does the condition decide in ternary?",
+              "options": [
+                "Which value to choose",
+                "Which header to include",
+                "Which function to compile"
+              ],
+              "answer": "Which value to choose",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is the correct ternary form?",
+              "options": [
+                "condition ? value1 : value2",
+                "condition : value1 ? value2",
+                "condition ? value1 value2"
+              ],
+              "answer": "condition ? value1 : value2",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does ternary return when condition is true?",
+              "options": [
+                "First value",
+                "Second value",
+                "Nothing"
+              ],
+              "answer": "First value",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What does ternary return when condition is false?",
+              "options": [
+                "Second value",
+                "First value",
+                "Error"
+              ],
+              "answer": "Second value",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "One Line Choice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What is the ternary operator used for?",
+              "options": [
+                "Quick decision",
+                "Looping",
+                "Including files"
+              ],
+              "answer": "Quick decision",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which symbol comes after the condition in ternary?",
+              "options": [
+                "?",
+                ":",
+                ";"
+              ],
+              "answer": "?",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which symbol separates true and false values?",
+              "options": [
+                ":",
+                "?",
+                ";"
+              ],
+              "answer": ":",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Ternary is useful when you need:",
+              "options": [
+                "Short if-else",
+                "A loop",
+                "A header"
+              ],
+              "answer": "Short if-else",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is the shorter if-else style?",
+              "options": [
+                "ternary",
+                "switch",
+                "for"
+              ],
+              "answer": "ternary",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does a true condition pick?",
+              "options": [
+                "Left side value",
+                "Right side value",
+                "No value"
+              ],
+              "answer": "Left side value",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "How many colons are in a ternary expression?",
+              "options": [
+                "One",
+                "Two",
+                "Zero"
+              ],
+              "answer": "One",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Short Decision",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator gives a quick choice?",
+              "options": [
+                "? :",
+                "&&",
+                "++"
+              ],
+              "answer": "? :",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Ternary is similar to what?",
+              "options": [
+                "if-else",
+                "switch",
+                "loop"
+              ],
+              "answer": "if-else",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What does condition ? a : b mean?",
+              "options": [
+                "Choose a if true, b if false",
+                "Choose b if true, a if false",
+                "Always choose a"
+              ],
+              "answer": "Choose a if true, b if false",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is a one-liner decision tool?",
+              "options": [
+                "ternary",
+                "while",
+                "break"
+              ],
+              "answer": "ternary",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What is ternary often used for?",
+              "options": [
+                "Small conditional expressions",
+                "Large menus only",
+                "Declaring headers"
+              ],
+              "answer": "Small conditional expressions",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does the false side of ternary give?",
+              "options": [
+                "Second result",
+                "First result",
+                "No result"
+              ],
+              "answer": "Second result",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which one is equivalent to a short if-else?",
+              "options": [
+                "ternary",
+                "include",
+                "case"
+              ],
+              "answer": "ternary",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Fast Choice Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator makes a fast choice?",
+              "options": [
+                "? :",
+                "==",
+                "&&"
+              ],
+              "answer": "? :",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What does ternary replace in many cases?",
+              "options": [
+                "Simple if-else",
+                "Header files",
+                "Loops"
+              ],
+              "answer": "Simple if-else",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What is the first part in ternary?",
+              "options": [
+                "Condition",
+                "False value",
+                "Colon"
+              ],
+              "answer": "Condition",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which punctuation marks are used in ternary?",
+              "options": [
+                "? and :",
+                "; and ,",
+                "{ and }"
+              ],
+              "answer": "? and :",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which side is chosen when condition is true?",
+              "options": [
+                "First value",
+                "Second value",
+                "Neither"
+              ],
+              "answer": "First value",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which side is chosen when condition is false?",
+              "options": [
+                "Second value",
+                "First value",
+                "Both"
+              ],
+              "answer": "Second value",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What is ternary best described as?",
+              "options": [
+                "One-line if",
+                "A loop",
+                "A function"
+              ],
+              "answer": "One-line if",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

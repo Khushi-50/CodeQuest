@@ -1,0 +1,1025 @@
+
+{
+  "course": "C Programming",
+  "chapter": 2,
+  "chapter_name": "The Data Boxes (Variables)",
+  "subtopics": [
+    {
+      "subtopic_id": 1,
+      "subtopic_name": "Choosing the Box",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Know Your Types",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which data type is used for whole numbers (integers)?",
+              "options": ["int", "float", "char"],
+              "answer": "int",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which data type can store decimal numbers?",
+              "options": ["int", "char", "float"],
+              "answer": "float",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which data type is best for a single letter like 'A'?",
+              "options": ["char", "int", "double"],
+              "answer": "char",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which type is typically larger in range, int or char?",
+              "options": ["int", "char", "They are the same"],
+              "answer": "int",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "If a number has a decimal point, which type should you use?",
+              "options": ["int", "char", "float"],
+              "answer": "float",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which type uses one byte to store a value on most systems?",
+              "options": ["int", "float", "char"],
+              "answer": "char",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What type is usually used to count objects (whole numbers)?",
+              "options": ["float", "int", "char"],
+              "answer": "int",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Sizes of Types",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which takes up more memory, int or char?",
+              "options": ["int", "char", "They are same"],
+              "answer": "int",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "On most systems, how many bytes does a char occupy?",
+              "options": ["1 byte", "2 bytes", "4 bytes"],
+              "answer": "1 byte",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "On many systems, how many bytes does an int use?",
+              "options": ["1 byte", "2 bytes", "4 bytes"],
+              "answer": "4 bytes",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which has a larger range of values, float or char?",
+              "options": ["float", "char", "They are the same"],
+              "answer": "float",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which type should you use for a number with fractions?",
+              "options": ["int", "char", "float"],
+              "answer": "float",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which is best for storing a single character?",
+              "options": ["int", "char", "float"],
+              "answer": "char",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which type can handle larger numeric values: int or float?",
+              "options": ["int", "float", "They are equal"],
+              "answer": "float",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Numbers vs Letters",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which type should hold the character 'K'?",
+              "options": ["int", "float", "char"],
+              "answer": "char",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "If you write int x = 5.5;, what will happen?",
+              "options": ["Error or truncated", "It will store 5.5 correctly", "It will ignore the decimal"],
+              "answer": "Error or truncated",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which type is better for precise whole numbers?",
+              "options": ["int", "float", "char"],
+              "answer": "int",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which type is used for decimal values like 3.14?",
+              "options": ["int", "float", "char"],
+              "answer": "float",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What type should store the value 10?",
+              "options": ["float", "int", "char"],
+              "answer": "int",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What type should store the value 7.89?",
+              "options": ["int", "float", "char"],
+              "answer": "float",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What type should store the letter 'B'?",
+              "options": ["char", "int", "float"],
+              "answer": "char",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Type Selection",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which one is a numeric type?",
+              "options": ["printf", "int", "include"],
+              "answer": "int",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which one is a character type?",
+              "options": ["char", "4", "float"],
+              "answer": "char",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What data type is x if declared as int x = 10;?",
+              "options": ["float", "char", "int"],
+              "answer": "int",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "True or False: float is used for integers.",
+              "options": ["True", "False", "Sometimes"],
+              "answer": "False",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which type is used for letters and characters?",
+              "options": ["char", "int", "float"],
+              "answer": "char",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which type is used for whole numbers without decimals?",
+              "options": ["float", "char", "int"],
+              "answer": "int",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What factor helps choose int vs float?",
+              "options": ["Whether a number has a decimal", "The color of the code", "The size of the screen"],
+              "answer": "Whether a number has a decimal",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 2,
+      "subtopic_name": "Giving a Name",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Naming Rules",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which variable name is valid?",
+              "options": ["var1", "1var", "var-1"],
+              "answer": "var1",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Can a name start with a number?",
+              "options": ["Yes", "No", "Only if it's int"],
+              "answer": "No",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Are spaces allowed in variable names?",
+              "options": ["Yes", "No", "Only underscores"],
+              "answer": "No",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is a valid name?",
+              "options": ["my_Var", "my Var", "my-Var"],
+              "answer": "my_Var",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is not allowed in a name?",
+              "options": ["Starting with number", "Using letters", "Using underscore"],
+              "answer": "Starting with number",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Are variable names case-sensitive?",
+              "options": ["Yes", "No", "Only on some systems"],
+              "answer": "Yes",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Can you use a C keyword as a variable name?",
+              "options": ["No", "Yes", "Only if it works"],
+              "answer": "No",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Valid vs Invalid Names",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which of these is a valid name?",
+              "options": ["totalSum", "total-sum", "total sum"],
+              "answer": "totalSum",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which of these is invalid?",
+              "options": ["value2", "2value", "value_2"],
+              "answer": "2value",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Is _data a valid variable name?",
+              "options": ["Yes", "No", "Only in some compilers"],
+              "answer": "Yes",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is invalid?",
+              "options": ["floatNumber", "float number", "float_number"],
+              "answer": "float number",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which character is allowed in a name?",
+              "options": ["!", "_", "#"],
+              "answer": "_",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which is true about variable names?",
+              "options": ["They cannot use spaces", "They must start with $", "They are not case-sensitive"],
+              "answer": "They cannot use spaces",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Why can't names start with a digit?",
+              "options": ["It confuses the compiler", "It is a reserved convention", "It makes numbers unpredictable"],
+              "answer": "It confuses the compiler",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "What's in a Name",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which is a valid variable name?",
+              "options": ["numPeople", "num People", "num-People"],
+              "answer": "numPeople",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which is not valid?",
+              "options": ["user_name", "user name", "username"],
+              "answer": "user name",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Can a name contain digits (not at start)?",
+              "options": ["Yes", "No", "Only if first char is letter"],
+              "answer": "Yes",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which one is invalid?",
+              "options": ["myVar2", "2myVar", "_myVar"],
+              "answer": "2myVar",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Is uppercase letter allowed anywhere in a name?",
+              "options": ["Yes", "No", "Only at start"],
+              "answer": "Yes",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which is a name rule?",
+              "options": ["No spaces", "Must include digits", "No letters"],
+              "answer": "No spaces",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What is wrong with name \"my var\"?",
+              "options": ["It has a space", "It has two words", "It has uppercase"],
+              "answer": "It has a space",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Naming Guidelines",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which symbol can you use in a name?",
+              "options": ["_", "-", "$"],
+              "answer": "_",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Is FirstName a valid name?",
+              "options": ["Yes", "No", "Only if declared"],
+              "answer": "Yes",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which is not allowed in names?",
+              "options": ["Space", "Letter", "_"],
+              "answer": "Space",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which of these is invalid?",
+              "options": ["%value", "percent", "Value_percent"],
+              "answer": "%value",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Can you start a name with underscore?",
+              "options": ["Yes", "No", "Only for functions"],
+              "answer": "Yes",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which is a valid name: myVar1, 1myVar",
+              "options": ["myVar1", "1myVar", "Both"],
+              "answer": "myVar1",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Why can't variable names have spaces?",
+              "options": ["It breaks the name", "Compiler error", "It creates two names"],
+              "answer": "Compiler error",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 3,
+      "subtopic_name": "Filling the Box",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Using =",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which symbol is used to assign a value to a variable?",
+              "options": ["==", "=", ":"],
+              "answer": "=",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "In x = 5, what does = do?",
+              "options": ["Check equality", "Assign 5 to x", "Divide x by 5"],
+              "answer": "Assign 5 to x",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which side of = has the variable?",
+              "options": ["Left", "Right", "Either"],
+              "answer": "Left",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What is x after: int x; x = 3;",
+              "options": ["0", "3", "Undefined"],
+              "answer": "3",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is assignment and which is comparison?",
+              "options": ["= is assignment, == is comparison", "== is assignment, = is comparison", "Both are assignment"],
+              "answer": "= is assignment, == is comparison",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What happens if you write 5 = x;",
+              "options": ["Error", "Assigns 5 to x", "Nothing"],
+              "answer": "Error",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which statement correctly assigns 10 to a?",
+              "options": ["a == 10;", "a = 10;", "10 = a;"],
+              "answer": "a = 10;",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Assignment vs Comparison",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which is an assignment operator in C?",
+              "options": ["=", "==", "*"],
+              "answer": "=",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which does not assign a value?",
+              "options": ["x = 5;", "x == 5;", "y = 10;"],
+              "answer": "x == 5;",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "After 'x = x + 1;', x is increased by 1?",
+              "options": ["True", "False", "Only if x>0"],
+              "answer": "True",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which side of = is the storage variable?",
+              "options": ["Left", "Right", "Both"],
+              "answer": "Left",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is correct: = or == operator explanation?",
+              "options": ["= stores value, == checks value", "= checks value, == stores", "Both do same"],
+              "answer": "= stores value, == checks value",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "If a = b + 2; what gets stored in a?",
+              "options": ["b", "2", "b+2"],
+              "answer": "b+2",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which of these is NOT an assignment?",
+              "options": ["x += 1;", "y = 5;", "x == y;"],
+              "answer": "x == y;",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Fill It In",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What does int x = 7; do?",
+              "options": ["Declares and sets x to 7", "Only declares x", "Prints 7"],
+              "answer": "Declares and sets x to 7",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What symbol would store value 4 in y?",
+              "options": ["y == 4;", "y = 4;", "y := 4;"],
+              "answer": "y = 4;",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "If int a; a = 9;, what is a's value?",
+              "options": ["0", "9", "Undefined"],
+              "answer": "9",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is an example of storing a value?",
+              "options": ["z = 2;", "z == 2;", "z := 2;"],
+              "answer": "z = 2;",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What will 'x = y' do in code?",
+              "options": ["Assign y's value to x", "Compare x and y", "Multiply x by y"],
+              "answer": "Assign y's value to x",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which is not a valid assignment?",
+              "options": ["m = 3;", "3 = m;", "n = m;"], 
+              "answer": "3 = m;",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "x = 10; y = x; What is y now?",
+              "options": ["x", "10", "Value of x"],
+              "answer": "10",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Assignment Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which line correctly assigns 5 to variable c?",
+              "options": ["c = 5;", "c == 5;", "= c 5;"],
+              "answer": "c = 5;",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What is the result of int x = 3; x = x + 2; ?",
+              "options": ["x is 5", "x is 3", "x is 2"],
+              "answer": "x is 5",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Is '=' the same as '==' in C?",
+              "options": ["No, '=' assigns, '==' compares", "Yes, they are same", "'==' assigns, '=' compares"],
+              "answer": "No, '=' assigns, '==' compares",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does '=' do in int a = 10;?",
+              "options": ["Assigns 10 to a", "Checks if a equals 10", "Declares variable a"],
+              "answer": "Assigns 10 to a",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is an assignment example?",
+              "options": ["x = 7;", "x == 7;", "x := 7;"],
+              "answer": "x = 7;",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does y = x + 1; do?",
+              "options": ["Stores x+1 into y", "Checks if y equals x+1", "Subtracts 1 from y"],
+              "answer": "Stores x+1 into y",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which cannot be used to assign a value?",
+              "options": ["x = 2", "x += 2", "x == 2"],
+              "answer": "x == 2",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+   {
+  "chapter": 2,
+  "subtopic_id": 4,
+  "subtopic_name": "The User’s Voice (scanf)",
+  "quizzes": [
+    {
+      "quiz_id": 1,
+      "quiz_title": "scanf Basics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which function is used to take input from the user in C?",
+          "options": ["printf()", "scanf()", "input()"],
+          "answer": "scanf()",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 2,
+          "question": "scanf reads input from where?",
+          "options": ["Keyboard", "Screen", "File only"],
+          "answer": "Keyboard",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 3,
+          "question": "Which symbol is used before variable in scanf?",
+          "options": ["&", "*", "#"],
+          "answer": "&",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 4,
+          "question": "Which is correct syntax?",
+          "options": ["scanf(\"%d\", &x);", "scanf(%d, x);", "scan(\"%d\", x);"],
+          "answer": "scanf(\"%d\", &x);",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 5,
+          "question": "What does %d represent in scanf?",
+          "options": ["Integer", "Float", "Character"],
+          "answer": "Integer",
+          "xp": 7,
+        "incorrect": "0"
+        },
+        {
+          "id": 6,
+          "question": "Why do we use & in scanf?",
+          "options": ["To give memory address", "To print value", "To compare values"],
+          "answer": "To give memory address",
+          "xp": 7,
+        "incorrect": "0"
+        },
+        {
+          "id": 7,
+          "question": "scanf is used for?",
+          "options": ["Input", "Output", "Looping"],
+          "answer": "Input",
+          "xp": 5,
+        "incorrect": "0"
+        }
+      ]
+    },
+    {
+      "quiz_id": 2,
+      "quiz_title": "Format Specifiers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which format specifier is used for int?",
+          "options": ["%d", "%f", "%c"],
+          "answer": "%d",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 2,
+          "question": "Which format specifier is used for float?",
+          "options": ["%f", "%d", "%c"],
+          "answer": "%f",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 3,
+          "question": "Which format specifier is used for char?",
+          "options": ["%c", "%d", "%f"],
+          "answer": "%c",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 4,
+          "question": "Which is correct for float input?",
+          "options": ["scanf(\"%f\", &x);", "scanf(\"%d\", &x);", "scanf(\"%c\", &x);"],
+          "answer": "scanf(\"%f\", &x);",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 5,
+          "question": "Which specifier matches int x?",
+          "options": ["%d", "%f", "%c"],
+          "answer": "%d",
+          "xp": 7,
+        "incorrect": "0"
+        },
+        {
+          "id": 6,
+          "question": "Which specifier matches char ch?",
+          "options": ["%c", "%d", "%f"],
+          "answer": "%c",
+          "xp": 7,
+        "incorrect": "0"
+        },
+        {
+          "id": 7,
+          "question": "Format specifiers are used to?",
+          "options": ["Define input type", "Print colors", "End program"],
+          "answer": "Define input type",
+          "xp": 5,
+        "incorrect": "0"
+        }
+      ]
+    },
+    {
+      "quiz_id": 3,
+      "quiz_title": "Taking Input",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which function allows user input?",
+          "options": ["scanf()", "printf()", "main()"],
+          "answer": "scanf()",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 2,
+          "question": "User types input using?",
+          "options": ["Keyboard", "Mouse", "Monitor"],
+          "answer": "Keyboard",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 3,
+          "question": "scanf stores input into?",
+          "options": ["Variables", "Headers", "Loops"],
+          "answer": "Variables",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 4,
+          "question": "Which is correct input for char?",
+          "options": ["scanf(\"%c\", &ch);", "scanf(\"%d\", &ch);", "scanf(\"%f\", &ch);"],
+          "answer": "scanf(\"%c\", &ch);",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 5,
+          "question": "What happens if & is missing?",
+          "options": ["Error", "Works fine", "Prints value"],
+          "answer": "Error",
+          "xp": 7,
+        "incorrect": "0"
+        },
+        {
+          "id": 6,
+          "question": "scanf reads input until?",
+          "options": ["Enter key", "Semicolon", "Compiler stops"],
+          "answer": "Enter key",
+          "xp": 7,
+        "incorrect": "0"
+        },
+        {
+          "id": 7,
+          "question": "Input is stored where?",
+          "options": ["Memory", "Screen", "File"],
+          "answer": "Memory",
+          "xp": 5,
+        "incorrect": "0"
+        }
+      ]
+    },
+    {
+      "quiz_id": 4,
+      "quiz_title": "Input Practice",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which function takes user input?",
+          "options": ["scanf()", "print()", "show()"],
+          "answer": "scanf()",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 2,
+          "question": "What does scanf need?",
+          "options": ["Format specifier", "Loop", "Header only"],
+          "answer": "Format specifier",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 3,
+          "question": "Which symbol gives address?",
+          "options": ["&", "*", "#"],
+          "answer": "&",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 4,
+          "question": "Correct input for int?",
+          "options": ["scanf(\"%d\", &x);", "scanf(\"%f\", &x);", "scanf(\"%c\", &x);"],
+          "answer": "scanf(\"%d\", &x);",
+          "xp": 5,
+        "incorrect": "0"
+        },
+        {
+          "id": 5,
+          "question": "Why is scanf useful?",
+          "options": ["Takes user input", "Prints output", "Loops code"],
+          "answer": "Takes user input",
+          "xp": 7,
+        "incorrect": "0"
+        },
+        {
+          "id": 6,
+          "question": "Which is required for storing input?",
+          "options": ["Variable address", "Loop", "Function only"],
+          "answer": "Variable address",
+          "xp": 7,
+        "incorrect": "0"
+        },
+        {
+          "id": 7,
+          "question": "scanf interacts with?",
+          "options": ["User", "Compiler", "File only"],
+          "answer": "User",
+          "xp": 5,
+        "incorrect": "0"
+        }
+      ]
+    }
+  ]
+   }
+]
+}

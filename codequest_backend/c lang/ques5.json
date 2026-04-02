@@ -1,0 +1,1471 @@
+{
+  "course": "C Programming",
+  "chapter": 5,
+  "chapter_name": "The Repeat Button (Loops)",
+  "subtopics": [
+    {
+      "subtopic_id": 1,
+      "subtopic_name": "The While Spin",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "While Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword is used for a while loop?",
+              "options": [
+                "while",
+                "for",
+                "loop"
+              ],
+              "answer": "while",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "A while loop runs based on?",
+              "options": [
+                "Condition",
+                "Variable name",
+                "Header"
+              ],
+              "answer": "Condition",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "When does a while loop stop?",
+              "options": [
+                "When condition becomes false",
+                "When it prints",
+                "Never"
+              ],
+              "answer": "When condition becomes false",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is correct syntax?",
+              "options": [
+                "while(x<5){ }",
+                "while x<5 { }",
+                "while[x<5]"
+              ],
+              "answer": "while(x<5){ }",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What happens if condition is always true?",
+              "options": [
+                "Infinite loop",
+                "Stops immediately",
+                "Error"
+              ],
+              "answer": "Infinite loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What must change inside loop to stop it?",
+              "options": [
+                "Condition variable",
+                "Header",
+                "Semicolon"
+              ],
+              "answer": "Condition variable",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which loop checks condition first?",
+              "options": [
+                "while",
+                "do-while",
+                "for"
+              ],
+              "answer": "while",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Loop Control",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What controls a while loop?",
+              "options": [
+                "Condition",
+                "printf",
+                "return"
+              ],
+              "answer": "Condition",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "If condition is false at start?",
+              "options": [
+                "Loop won't run",
+                "Runs once",
+                "Infinite"
+              ],
+              "answer": "Loop won't run",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What must be updated in loop?",
+              "options": [
+                "Variable",
+                "Header",
+                "Function"
+              ],
+              "answer": "Variable",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which loop may never run?",
+              "options": [
+                "while",
+                "do-while",
+                "for"
+              ],
+              "answer": "while",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is infinite?",
+              "options": [
+                "while(1)",
+                "while(0)",
+                "while(false)"
+              ],
+              "answer": "while(1)",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What prevents infinite loops?",
+              "options": [
+                "Changing condition",
+                "Using printf",
+                "Adding comments"
+              ],
+              "answer": "Changing condition",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What is a loop?",
+              "options": [
+                "Repeated execution",
+                "One-time run",
+                "Header"
+              ],
+              "answer": "Repeated execution",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "While Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword repeats code?",
+              "options": [
+                "while",
+                "int",
+                "if"
+              ],
+              "answer": "while",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Loop runs until?",
+              "options": [
+                "Condition false",
+                "Condition true",
+                "Compiler stops"
+              ],
+              "answer": "Condition false",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which part is checked first?",
+              "options": [
+                "Condition",
+                "Body",
+                "Semicolon"
+              ],
+              "answer": "Condition",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is valid?",
+              "options": [
+                "while(i<10){ }",
+                "while i<10",
+                "while[i<10]"
+              ],
+              "answer": "while(i<10){ }",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What if variable not updated?",
+              "options": [
+                "Infinite loop",
+                "Stops early",
+                "Error"
+              ],
+              "answer": "Infinite loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which loop condition is checked first?",
+              "options": [
+                "while",
+                "do-while",
+                "none"
+              ],
+              "answer": "while",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Loop body is inside?",
+              "options": [
+                "{}",
+                "()",
+                "[]"
+              ],
+              "answer": "{}",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "While Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "While loop repeats?",
+              "options": [
+                "Yes",
+                "No",
+                "Sometimes"
+              ],
+              "answer": "Yes",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Condition true means?",
+              "options": [
+                "Run",
+                "Stop",
+                "Error"
+              ],
+              "answer": "Run",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Condition false means?",
+              "options": [
+                "Stop",
+                "Run",
+                "Repeat"
+              ],
+              "answer": "Stop",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Loop block is inside?",
+              "options": [
+                "{}",
+                "()",
+                "<>"
+              ],
+              "answer": "{}",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which avoids infinite loop?",
+              "options": [
+                "Updating variable",
+                "Adding semicolon",
+                "Printing"
+              ],
+              "answer": "Updating variable",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which loop may skip execution?",
+              "options": [
+                "while",
+                "do-while",
+                "both"
+              ],
+              "answer": "while",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Loop purpose?",
+              "options": [
+                "Repeat tasks",
+                "End program",
+                "Declare variables"
+              ],
+              "answer": "Repeat tasks",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 2,
+      "subtopic_name": "The For Count",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "For Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which loop runs fixed times?",
+              "options": [
+                "for",
+                "while",
+                "if"
+              ],
+              "answer": "for",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "For loop has how many parts?",
+              "options": [
+                "3",
+                "2",
+                "1"
+              ],
+              "answer": "3",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "First part is?",
+              "options": [
+                "Initialization",
+                "Condition",
+                "Update"
+              ],
+              "answer": "Initialization",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Second part is?",
+              "options": [
+                "Condition",
+                "Initialization",
+                "Body"
+              ],
+              "answer": "Condition",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Third part is?",
+              "options": [
+                "Update",
+                "Condition",
+                "Print"
+              ],
+              "answer": "Update",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which loop is best for counting?",
+              "options": [
+                "for",
+                "while",
+                "switch"
+              ],
+              "answer": "for",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Loop body inside?",
+              "options": [
+                "{}",
+                "()",
+                "[]"
+              ],
+              "answer": "{}",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Counting Loop",
+          "questions": [
+            {
+              "id": 1,
+              "question": "For loop repeats?",
+              "options": [
+                "Yes",
+                "No",
+                "Sometimes"
+              ],
+              "answer": "Yes",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Used when iterations known?",
+              "options": [
+                "for",
+                "while",
+                "if"
+              ],
+              "answer": "for",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Condition controls?",
+              "options": [
+                "Loop run",
+                "Print",
+                "Variable"
+              ],
+              "answer": "Loop run",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Update does?",
+              "options": [
+                "Changes variable",
+                "Prints",
+                "Stops"
+              ],
+              "answer": "Changes variable",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What if condition always true?",
+              "options": [
+                "Infinite loop",
+                "Stops",
+                "Error"
+              ],
+              "answer": "Infinite loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which loop is compact?",
+              "options": [
+                "for",
+                "while",
+                "switch"
+              ],
+              "answer": "for",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Initialization runs?",
+              "options": [
+                "Once",
+                "Every loop",
+                "Never"
+              ],
+              "answer": "Once",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "For Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which loop uses semicolons?",
+              "options": [
+                "for",
+                "while",
+                "if"
+              ],
+              "answer": "for",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Loop ends when?",
+              "options": [
+                "Condition false",
+                "True",
+                "Break"
+              ],
+              "answer": "Condition false",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Update happens?",
+              "options": [
+                "Each iteration",
+                "Once",
+                "Never"
+              ],
+              "answer": "Each iteration",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Correct syntax?",
+              "options": [
+                "for(i=0;i<5;i++)",
+                "for i<5",
+                "for[i]"
+              ],
+              "answer": "for(i=0;i<5;i++)",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is best for known count?",
+              "options": [
+                "for",
+                "while",
+                "switch"
+              ],
+              "answer": "for",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Infinite loop example?",
+              "options": [
+                "for(;;)",
+                "for(i=0;i<5;i++)",
+                "for(i=0)"
+              ],
+              "answer": "for(;;)",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Loop body?",
+              "options": [
+                "{}",
+                "()",
+                "<>"
+              ],
+              "answer": "{}",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "For Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "For loop repeats?",
+              "options": [
+                "Yes",
+                "No",
+                "Sometimes"
+              ],
+              "answer": "Yes",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Initialization runs?",
+              "options": [
+                "Once",
+                "Every time",
+                "Never"
+              ],
+              "answer": "Once",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Condition checked?",
+              "options": [
+                "Each loop",
+                "Once",
+                "Never"
+              ],
+              "answer": "Each loop",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Update runs?",
+              "options": [
+                "Each loop",
+                "Once",
+                "Never"
+              ],
+              "answer": "Each loop",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Best loop for counters?",
+              "options": [
+                "for",
+                "while",
+                "if"
+              ],
+              "answer": "for",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which part changes value?",
+              "options": [
+                "Update",
+                "Condition",
+                "Body"
+              ],
+              "answer": "Update",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Purpose of for?",
+              "options": [
+                "Repeat known times",
+                "Single run",
+                "Print"
+              ],
+              "answer": "Repeat known times",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 3,
+      "subtopic_name": "The Do-While Dance",
+      "quizzes": [
+        {
+          "quiz_title": "Do-While Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which loop checks its condition after the body runs?",
+              "options": [
+                "do-while",
+                "while",
+                "for"
+              ],
+              "answer": "do-while",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which keyword begins a do-while loop?",
+              "options": [
+                "do",
+                "while",
+                "loop"
+              ],
+              "answer": "do",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "A do-while loop always runs at least?",
+              "options": [
+                "One time",
+                "Zero times",
+                "Two times"
+              ],
+              "answer": "One time",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What comes after the body in do-while?",
+              "options": [
+                "while(condition);",
+                "if(condition);",
+                "for(condition);"
+              ],
+              "answer": "while(condition);",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "A do-while loop is useful when input must be taken?",
+              "options": [
+                "At least once",
+                "Never",
+                "Only at compile time"
+              ],
+              "answer": "At least once",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "If the condition stays true forever, a do-while can become?",
+              "options": [
+                "Infinite loop",
+                "Syntax error",
+                "Comment"
+              ],
+              "answer": "Infinite loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "The condition in do-while appears at the?",
+              "options": [
+                "Bottom of the loop",
+                "Top of the loop",
+                "Header file"
+              ],
+              "answer": "Bottom of the loop",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 1
+        },
+        {
+          "quiz_title": "Condition Check Later",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which loop checks its condition after the body runs?",
+              "options": [
+                "do-while",
+                "while",
+                "for"
+              ],
+              "answer": "do-while",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which keyword begins a do-while loop?",
+              "options": [
+                "do",
+                "while",
+                "loop"
+              ],
+              "answer": "do",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "A do-while loop always runs at least?",
+              "options": [
+                "One time",
+                "Zero times",
+                "Two times"
+              ],
+              "answer": "One time",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What comes after the body in do-while?",
+              "options": [
+                "while(condition);",
+                "if(condition);",
+                "for(condition);"
+              ],
+              "answer": "while(condition);",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "A do-while loop is useful when input must be taken?",
+              "options": [
+                "At least once",
+                "Never",
+                "Only at compile time"
+              ],
+              "answer": "At least once",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "If the condition stays true forever, a do-while can become?",
+              "options": [
+                "Infinite loop",
+                "Syntax error",
+                "Comment"
+              ],
+              "answer": "Infinite loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "The condition in do-while appears at the?",
+              "options": [
+                "Bottom of the loop",
+                "Top of the loop",
+                "Header file"
+              ],
+              "answer": "Bottom of the loop",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "Do-While Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which loop checks its condition after the body runs?",
+              "options": [
+                "do-while",
+                "while",
+                "for"
+              ],
+              "answer": "do-while",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which keyword begins a do-while loop?",
+              "options": [
+                "do",
+                "while",
+                "loop"
+              ],
+              "answer": "do",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "A do-while loop always runs at least?",
+              "options": [
+                "One time",
+                "Zero times",
+                "Two times"
+              ],
+              "answer": "One time",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What comes after the body in do-while?",
+              "options": [
+                "while(condition);",
+                "if(condition);",
+                "for(condition);"
+              ],
+              "answer": "while(condition);",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "A do-while loop is useful when input must be taken?",
+              "options": [
+                "At least once",
+                "Never",
+                "Only at compile time"
+              ],
+              "answer": "At least once",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "If the condition stays true forever, a do-while can become?",
+              "options": [
+                "Infinite loop",
+                "Syntax error",
+                "Comment"
+              ],
+              "answer": "Infinite loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "The condition in do-while appears at the?",
+              "options": [
+                "Bottom of the loop",
+                "Top of the loop",
+                "Header file"
+              ],
+              "answer": "Bottom of the loop",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Do-While Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which loop checks its condition after the body runs?",
+              "options": [
+                "do-while",
+                "while",
+                "for"
+              ],
+              "answer": "do-while",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which keyword begins a do-while loop?",
+              "options": [
+                "do",
+                "while",
+                "loop"
+              ],
+              "answer": "do",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "A do-while loop always runs at least?",
+              "options": [
+                "One time",
+                "Zero times",
+                "Two times"
+              ],
+              "answer": "One time",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What comes after the body in do-while?",
+              "options": [
+                "while(condition);",
+                "if(condition);",
+                "for(condition);"
+              ],
+              "answer": "while(condition);",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "A do-while loop is useful when input must be taken?",
+              "options": [
+                "At least once",
+                "Never",
+                "Only at compile time"
+              ],
+              "answer": "At least once",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "If the condition stays true forever, a do-while can become?",
+              "options": [
+                "Infinite loop",
+                "Syntax error",
+                "Comment"
+              ],
+              "answer": "Infinite loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "The condition in do-while appears at the?",
+              "options": [
+                "Bottom of the loop",
+                "Top of the loop",
+                "Header file"
+              ],
+              "answer": "Bottom of the loop",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    },
+    {
+      "subtopic_id": 4,
+      "subtopic_name": "The Break & Continue",
+      "quizzes": [
+        {
+          "quiz_title": "Break Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword exits a loop immediately?",
+              "options": [
+                "break",
+                "continue",
+                "case"
+              ],
+              "answer": "break",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which keyword skips to the next iteration?",
+              "options": [
+                "continue",
+                "break",
+                "return"
+              ],
+              "answer": "continue",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "break is often used when a target value is?",
+              "options": [
+                "Found",
+                "Declared",
+                "Printed"
+              ],
+              "answer": "Found",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "continue is useful when one case should be?",
+              "options": [
+                "Skipped",
+                "Renamed",
+                "Freed"
+              ],
+              "answer": "Skipped",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "After break, control goes to the statement?",
+              "options": [
+                "After the loop",
+                "At the top of the loop",
+                "Inside main only"
+              ],
+              "answer": "After the loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Too many break or continue statements can make logic?",
+              "options": [
+                "Harder to follow",
+                "Safer automatically",
+                "Compile faster"
+              ],
+              "answer": "Harder to follow",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Both break and continue are used to control?",
+              "options": [
+                "Loop flow",
+                "Struct members",
+                "String terminators"
+              ],
+              "answer": "Loop flow",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 1
+        },
+        {
+          "quiz_title": "Continue Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword exits a loop immediately?",
+              "options": [
+                "break",
+                "continue",
+                "case"
+              ],
+              "answer": "break",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which keyword skips to the next iteration?",
+              "options": [
+                "continue",
+                "break",
+                "return"
+              ],
+              "answer": "continue",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "break is often used when a target value is?",
+              "options": [
+                "Found",
+                "Declared",
+                "Printed"
+              ],
+              "answer": "Found",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "continue is useful when one case should be?",
+              "options": [
+                "Skipped",
+                "Renamed",
+                "Freed"
+              ],
+              "answer": "Skipped",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "After break, control goes to the statement?",
+              "options": [
+                "After the loop",
+                "At the top of the loop",
+                "Inside main only"
+              ],
+              "answer": "After the loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Too many break or continue statements can make logic?",
+              "options": [
+                "Harder to follow",
+                "Safer automatically",
+                "Compile faster"
+              ],
+              "answer": "Harder to follow",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Both break and continue are used to control?",
+              "options": [
+                "Loop flow",
+                "Struct members",
+                "String terminators"
+              ],
+              "answer": "Loop flow",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "Flow Control Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword exits a loop immediately?",
+              "options": [
+                "break",
+                "continue",
+                "case"
+              ],
+              "answer": "break",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which keyword skips to the next iteration?",
+              "options": [
+                "continue",
+                "break",
+                "return"
+              ],
+              "answer": "continue",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "break is often used when a target value is?",
+              "options": [
+                "Found",
+                "Declared",
+                "Printed"
+              ],
+              "answer": "Found",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "continue is useful when one case should be?",
+              "options": [
+                "Skipped",
+                "Renamed",
+                "Freed"
+              ],
+              "answer": "Skipped",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "After break, control goes to the statement?",
+              "options": [
+                "After the loop",
+                "At the top of the loop",
+                "Inside main only"
+              ],
+              "answer": "After the loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Too many break or continue statements can make logic?",
+              "options": [
+                "Harder to follow",
+                "Safer automatically",
+                "Compile faster"
+              ],
+              "answer": "Harder to follow",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Both break and continue are used to control?",
+              "options": [
+                "Loop flow",
+                "Struct members",
+                "String terminators"
+              ],
+              "answer": "Loop flow",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Loop Control Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which keyword exits a loop immediately?",
+              "options": [
+                "break",
+                "continue",
+                "case"
+              ],
+              "answer": "break",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which keyword skips to the next iteration?",
+              "options": [
+                "continue",
+                "break",
+                "return"
+              ],
+              "answer": "continue",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "break is often used when a target value is?",
+              "options": [
+                "Found",
+                "Declared",
+                "Printed"
+              ],
+              "answer": "Found",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "continue is useful when one case should be?",
+              "options": [
+                "Skipped",
+                "Renamed",
+                "Freed"
+              ],
+              "answer": "Skipped",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "After break, control goes to the statement?",
+              "options": [
+                "After the loop",
+                "At the top of the loop",
+                "Inside main only"
+              ],
+              "answer": "After the loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Too many break or continue statements can make logic?",
+              "options": [
+                "Harder to follow",
+                "Safer automatically",
+                "Compile faster"
+              ],
+              "answer": "Harder to follow",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Both break and continue are used to control?",
+              "options": [
+                "Loop flow",
+                "Struct members",
+                "String terminators"
+              ],
+              "answer": "Loop flow",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    }
+  ]
+}

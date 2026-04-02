@@ -1,0 +1,1023 @@
+{
+  "course": "C Programming",
+  "chapter": 3,
+  "chapter_name": "The Logic Engine (Operators)",
+  "subtopics": [
+    {
+      "subtopic_id": 1,
+      "subtopic_name": "The Calculator",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Basic Math",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator is used for addition in C?",
+              "options": ["+", "-", "*"],
+              "answer": "+",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which operator is used for subtraction in C?",
+              "options": ["-", "/", "%"],
+              "answer": "-",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which operator is used for multiplication in C?",
+              "options": ["*", "+", "/"],
+              "answer": "*",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which operator is used for division in C?",
+              "options": ["/", "%", "-"],
+              "answer": "/",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which operator gives the remainder after division?",
+              "options": ["%", "*", "+"],
+              "answer": "%",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What is the result of 10 / 2 in C?",
+              "options": ["5", "2", "0"],
+              "answer": "5",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which operator is used when you want to combine two numbers?",
+              "options": ["+", "-", "%"],
+              "answer": "+",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Numbers in Action",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What is the result of 3 + 2?",
+              "options": ["5", "6", "1"],
+              "answer": "5",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What is the result of 8 - 3?",
+              "options": ["5", "11", "24"],
+              "answer": "5",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What is the result of 4 * 2?",
+              "options": ["8", "6", "2"],
+              "answer": "8",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What is the result of 9 / 3?",
+              "options": ["3", "6", "0"],
+              "answer": "3",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What is the result of 7 % 3?",
+              "options": ["1", "2", "3"],
+              "answer": "1",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What is the result of 12 / 4?",
+              "options": ["3", "4", "2"],
+              "answer": "3",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which operator is best for getting the remainder?",
+              "options": ["%", "/", "-"],
+              "answer": "%",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Operator Spotting",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator means add?",
+              "options": ["+", "%", "!"],
+              "answer": "+",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which operator means divide?",
+              "options": ["/", "*", "-"],
+              "answer": "/",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which operator means multiply?",
+              "options": ["*", "+", "!="],
+              "answer": "*",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which operator means subtract?",
+              "options": ["-", "/", "%"],
+              "answer": "-",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What does % do?",
+              "options": ["Finds remainder", "Adds numbers", "Compares values"],
+              "answer": "Finds remainder",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What is 15 % 4?",
+              "options": ["3", "4", "1"],
+              "answer": "3",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which one is a math operator in C?",
+              "options": ["+", "==", "&&"],
+              "answer": "+",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Mini Calculator",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What is 1 + 1?",
+              "options": ["2", "1", "0"],
+              "answer": "2",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What is 5 - 2?",
+              "options": ["3", "7", "2"],
+              "answer": "3",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What is 2 * 3?",
+              "options": ["6", "5", "9"],
+              "answer": "6",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What is 8 / 4?",
+              "options": ["2", "4", "8"],
+              "answer": "2",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which operator should be used for division?",
+              "options": ["/", "*", "%"],
+              "answer": "/",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which operator gives remainder?",
+              "options": ["%", "+", "-"],
+              "answer": "%",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What is the result of 11 % 2?",
+              "options": ["1", "0", "2"],
+              "answer": "1",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 2,
+      "subtopic_name": "The Scoreboard",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Comparing Values",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator means greater than?",
+              "options": [">", "<", "=="],
+              "answer": ">",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which operator means less than?",
+              "options": ["<", ">", "!="],
+              "answer": "<",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which operator checks if two values are equal?",
+              "options": ["==", "=", "!="],
+              "answer": "==",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which operator checks if two values are not equal?",
+              "options": ["!=", "==", "="],
+              "answer": "!=",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which operator is used to compare equality?",
+              "options": ["==", "=", ">"],
+              "answer": "==",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does 5 > 3 return?",
+              "options": ["True", "False", "5"],
+              "answer": "True",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What does 2 < 1 return?",
+              "options": ["False", "True", "1"],
+              "answer": "False",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "True or False",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What does 4 > 2 return?",
+              "options": ["True", "False", "4"],
+              "answer": "True",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What does 2 < 1 return?",
+              "options": ["False", "True", "2"],
+              "answer": "False",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What does 3 == 3 return?",
+              "options": ["True", "False", "3"],
+              "answer": "True",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does 6 != 6 return?",
+              "options": ["False", "True", "6"],
+              "answer": "False",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which operator means not equal?",
+              "options": ["!=", "==", ">"],
+              "answer": "!=",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does 10 < 20 return?",
+              "options": ["True", "False", "10"],
+              "answer": "True",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What does 7 == 8 return?",
+              "options": ["False", "True", "8"],
+              "answer": "False",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Comparison Signs",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator checks greater than?",
+              "options": [">", "<", "="],
+              "answer": ">",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which operator checks less than?",
+              "options": ["<", ">", "=="],
+              "answer": "<",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which operator checks equality?",
+              "options": ["==", "!=", "="],
+              "answer": "==",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which operator means not equal?",
+              "options": ["!=", "==", "<"],
+              "answer": "!=",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What does 9 > 4 return?",
+              "options": ["True", "False", "4"],
+              "answer": "True",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does 1 != 1 return?",
+              "options": ["False", "True", "1"],
+              "answer": "False",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which operator is used in if conditions to compare values?",
+              "options": ["==", "=", "+"],
+              "answer": "==",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Score Check",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What does 8 >= 3 mean in simple comparison terms?",
+              "options": ["8 is greater than 3", "8 is less than 3", "8 equals 3"],
+              "answer": "8 is greater than 3",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What does 2 < 5 return?",
+              "options": ["True", "False", "5"],
+              "answer": "True",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What does 4 == 4 return?",
+              "options": ["True", "False", "4"],
+              "answer": "True",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does 5 != 5 return?",
+              "options": ["False", "True", "5"],
+              "answer": "False",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which operator checks if two values are the same?",
+              "options": ["==", "=", "!="],
+              "answer": "==",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does 12 > 6 return?",
+              "options": ["True", "False", "12"],
+              "answer": "True",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which one is a comparison operator?",
+              "options": ["<", "+", "%"],
+              "answer": "<",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 3,
+      "subtopic_name": "The Logic Gate",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "AND, OR, NOT",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator means logical AND?",
+              "options": ["&&", "||", "!"],
+              "answer": "&&",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which operator means logical OR?",
+              "options": ["||", "&&", "!="],
+              "answer": "||",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which operator means logical NOT?",
+              "options": ["!", "&&", "||"],
+              "answer": "!",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which operator gives the opposite result?",
+              "options": ["!", "&&", "=="],
+              "answer": "!",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which operator is used when both conditions must be true?",
+              "options": ["&&", "||", "!"],
+              "answer": "&&",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which operator is used when at least one condition can be true?",
+              "options": ["||", "&&", "!="],
+              "answer": "||",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What does !true mean?",
+              "options": ["False", "True", "1"],
+              "answer": "False",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Logic in Conditions",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator means AND?",
+              "options": ["&&", "||", "!"],
+              "answer": "&&",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which operator means OR?",
+              "options": ["||", "&&", "="],
+              "answer": "||",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which operator means NOT?",
+              "options": ["!", "==", "%"],
+              "answer": "!",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does true && false return?",
+              "options": ["False", "True", "Error"],
+              "answer": "False",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What does true || false return?",
+              "options": ["True", "False", "Nothing"],
+              "answer": "True",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does !false return?",
+              "options": ["True", "False", "0"],
+              "answer": "True",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which operator is useful when one of two conditions is enough?",
+              "options": ["||", "&&", "!"],
+              "answer": "||",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "True Logic",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What does AND mean?",
+              "options": ["Both must be true", "Only one must be true", "Nothing must be true"],
+              "answer": "Both must be true",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What does OR mean?",
+              "options": ["One or both can be true", "Both must be false", "Only false is accepted"],
+              "answer": "One or both can be true",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What does NOT do?",
+              "options": ["Reverses the truth value", "Adds numbers", "Joins conditions"],
+              "answer": "Reverses the truth value",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does false || false return?",
+              "options": ["False", "True", "0"],
+              "answer": "False",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What does true && true return?",
+              "options": ["True", "False", "Maybe"],
+              "answer": "True",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does !true return?",
+              "options": ["False", "True", "1"],
+              "answer": "False",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which operator is used to flip a condition?",
+              "options": ["!", "&&", "||"],
+              "answer": "!",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Logic Gate Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator checks if both conditions are true?",
+              "options": ["&&", "||", "!"],
+              "answer": "&&",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which operator checks if at least one condition is true?",
+              "options": ["||", "&&", "=="],
+              "answer": "||",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which operator changes true to false?",
+              "options": ["!", "&&", "||"],
+              "answer": "!",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does false && true return?",
+              "options": ["False", "True", "Error"],
+              "answer": "False",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What does true || true return?",
+              "options": ["True", "False", "0"],
+              "answer": "True",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What does !false return?",
+              "options": ["True", "False", "None"],
+              "answer": "True",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which operator belongs to logical operations?",
+              "options": ["&&", "+", "%"],
+              "answer": "&&",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 4,
+      "subtopic_name": "The Shortcut",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Increment and Decrement",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator increases a value by 1?",
+              "options": ["++", "--", "!="],
+              "answer": "++",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which operator decreases a value by 1?",
+              "options": ["--", "++", "=="],
+              "answer": "--",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What does x++ do?",
+              "options": ["Increases x by 1", "Decreases x by 1", "Multiplies x by 1"],
+              "answer": "Increases x by 1",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does x-- do?",
+              "options": ["Decreases x by 1", "Increases x by 1", "Leaves x unchanged"],
+              "answer": "Decreases x by 1",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which operator is used to add one quickly?",
+              "options": ["++", "--", "+"],
+              "answer": "++",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which operator is used to subtract one quickly?",
+              "options": ["--", "++", "-"],
+              "answer": "--",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "If x = 4, what is x++ usually used for?",
+              "options": ["Increase x by 1", "Set x to 0", "Compare x"],
+              "answer": "Increase x by 1",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "One Step Up or Down",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What does ++ mean?",
+              "options": ["Add 1", "Subtract 1", "Multiply by 1"],
+              "answer": "Add 1",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "What does -- mean?",
+              "options": ["Subtract 1", "Add 1", "Divide by 1"],
+              "answer": "Subtract 1",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Which one increases a variable?",
+              "options": ["++", "--", "!="],
+              "answer": "++",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which one decreases a variable?",
+              "options": ["--", "++", "&&"],
+              "answer": "--",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "What is the shortcut for x = x + 1?",
+              "options": ["x++", "x--", "x = 1"],
+              "answer": "x++",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "What is the shortcut for x = x - 1?",
+              "options": ["x--", "x++", "x = 0"],
+              "answer": "x--",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Which operator is a decrement operator?",
+              "options": ["--", "++", "&&"],
+              "answer": "--",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Quick Change",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator adds one?",
+              "options": ["++", "--", "%"],
+              "answer": "++",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which operator subtracts one?",
+              "options": ["--", "++", "/"],
+              "answer": "--",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What does a++ mean?",
+              "options": ["Increase a by 1", "Decrease a by 1", "Keep a same"],
+              "answer": "Increase a by 1",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does a-- mean?",
+              "options": ["Decrease a by 1", "Increase a by 1", "Compare a"],
+              "answer": "Decrease a by 1",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which operator is increment?",
+              "options": ["++", "--", "="],
+              "answer": "++",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which operator is decrement?",
+              "options": ["--", "++", "=="],
+              "answer": "--",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What does x++ change x by?",
+              "options": ["1", "2", "0"],
+              "answer": "1",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Shortcut Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which one means plus one?",
+              "options": ["++", "--", "+"],
+              "answer": "++",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which one means minus one?",
+              "options": ["--", "++", "-"],
+              "answer": "--",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "What does count++ do?",
+              "options": ["Increments count", "Decrements count", "Compares count"],
+              "answer": "Increments count",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "What does count-- do?",
+              "options": ["Decrements count", "Increments count", "Assigns count"],
+              "answer": "Decrements count",
+              "xp": 5,
+            "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is the increment operator?",
+              "options": ["++", "--", "!="],
+              "answer": "++",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which is the decrement operator?",
+              "options": ["--", "++", "||"],
+              "answer": "--",
+              "xp": 7,
+            "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "What is x = x + 1 same as?",
+              "options": ["x++", "x--", "x = 0"],
+              "answer": "x++",
+              "xp": 5,
+            "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

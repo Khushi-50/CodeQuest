@@ -1,0 +1,1471 @@
+{
+  "course": "C Programming",
+  "chapter": 9,
+  "chapter_name": "The Professional Folder (Structures)",
+  "subtopics": [
+    {
+      "subtopic_id": 1,
+      "subtopic_name": "The Custom Box (struct)",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Struct Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What is a struct?",
+              "options": [
+                "Group of different data types",
+                "Single variable",
+                "Loop"
+              ],
+              "answer": "Group of different data types",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which keyword is used to define struct?",
+              "options": [
+                "struct",
+                "class",
+                "int"
+              ],
+              "answer": "struct",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Struct stores?",
+              "options": [
+                "Different types together",
+                "Same type only",
+                "Nothing"
+              ],
+              "answer": "Different types together",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Struct is useful for?",
+              "options": [
+                "Grouping data",
+                "Looping",
+                "Printing"
+              ],
+              "answer": "Grouping data",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Which is correct syntax?",
+              "options": [
+                "struct A { int x; };",
+                "struct A int x;",
+                "A struct { }"
+              ],
+              "answer": "struct A { int x; };",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Struct can contain?",
+              "options": [
+                "Multiple types",
+                "Only int",
+                "Only char"
+              ],
+              "answer": "Multiple types",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Struct is like?",
+              "options": [
+                "Folder",
+                "Loop",
+                "Function"
+              ],
+              "answer": "Folder",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 2,
+          "quiz_title": "Struct Usage",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Struct groups?",
+              "options": [
+                "Data",
+                "Loops",
+                "Headers"
+              ],
+              "answer": "Data",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Struct can store?",
+              "options": [
+                "int, float, char",
+                "Only int",
+                "Only float"
+              ],
+              "answer": "int, float, char",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Struct helps in?",
+              "options": [
+                "Organizing data",
+                "Looping",
+                "Printing"
+              ],
+              "answer": "Organizing data",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Each member in struct is?",
+              "options": [
+                "Variable",
+                "Loop",
+                "Header"
+              ],
+              "answer": "Variable",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Struct ends with?",
+              "options": [
+                ";",
+                ":",
+                "."
+              ],
+              "answer": ";",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Struct is user-defined?",
+              "options": [
+                "Yes",
+                "No",
+                "Sometimes"
+              ],
+              "answer": "Yes",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Struct improves?",
+              "options": [
+                "Readability",
+                "Errors",
+                "Loops"
+              ],
+              "answer": "Readability",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 3,
+          "quiz_title": "Custom Data",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Struct is used for?",
+              "options": [
+                "Custom data type",
+                "Loop",
+                "Header"
+              ],
+              "answer": "Custom data type",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Struct can hold?",
+              "options": [
+                "Different values",
+                "Same only",
+                "None"
+              ],
+              "answer": "Different values",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Struct name follows?",
+              "options": [
+                "struct keyword",
+                "int",
+                "float"
+              ],
+              "answer": "struct keyword",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Members are inside?",
+              "options": [
+                "{}",
+                "()",
+                "[]"
+              ],
+              "answer": "{}",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Struct allows?",
+              "options": [
+                "Complex data",
+                "Simple only",
+                "None"
+              ],
+              "answer": "Complex data",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Each member has?",
+              "options": [
+                "Type & name",
+                "Loop",
+                "Header"
+              ],
+              "answer": "Type & name",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Struct acts like?",
+              "options": [
+                "Blueprint",
+                "Loop",
+                "Array"
+              ],
+              "answer": "Blueprint",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_id": 4,
+          "quiz_title": "Struct Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Struct stores?",
+              "options": [
+                "Multiple types",
+                "Single type",
+                "Loop"
+              ],
+              "answer": "Multiple types",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Struct defined by?",
+              "options": [
+                "struct",
+                "int",
+                "main"
+              ],
+              "answer": "struct",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Members inside?",
+              "options": [
+                "{}",
+                "()",
+                "[]"
+              ],
+              "answer": "{}",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Struct is?",
+              "options": [
+                "User-defined type",
+                "Loop",
+                "Header"
+              ],
+              "answer": "User-defined type",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Struct helps organize?",
+              "options": [
+                "Data",
+                "Loops",
+                "Functions"
+              ],
+              "answer": "Data",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Struct used in?",
+              "options": [
+                "Real-world data",
+                "Loops only",
+                "Printing"
+              ],
+              "answer": "Real-world data",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Struct improves?",
+              "options": [
+                "Code clarity",
+                "Errors",
+                "Loops"
+              ],
+              "answer": "Code clarity",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic_id": 2,
+      "subtopic_name": "The Dot Operator",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Dot Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator accesses struct members?",
+              "options": [
+                ".",
+                "*",
+                "&"
+              ],
+              "answer": ".",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "s.name means?",
+              "options": [
+                "Access member",
+                "Pointer",
+                "Loop"
+              ],
+              "answer": "Access member",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Dot operator used with?",
+              "options": [
+                "Struct variable",
+                "Loop",
+                "Function"
+              ],
+              "answer": "Struct variable",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Correct usage?",
+              "options": [
+                "s.x",
+                "s->x",
+                "s[x]"
+              ],
+              "answer": "s.x",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Dot connects?",
+              "options": [
+                "Variable & member",
+                "Loop & header",
+                "Function"
+              ],
+              "answer": "Variable & member",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Access struct data?",
+              "options": [
+                ". operator",
+                "*",
+                "&"
+              ],
+              "answer": ". operator",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dot works on?",
+              "options": [
+                "Struct variable",
+                "Pointer",
+                "Loop"
+              ],
+              "answer": "Struct variable",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "Member Access Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator accesses members of a struct variable?",
+              "options": [
+                ".",
+                "->",
+                "&"
+              ],
+              "answer": ".",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "In student.age, age is a struct?",
+              "options": [
+                "Member",
+                "Pointer",
+                "Loop"
+              ],
+              "answer": "Member",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "The dot operator connects a struct variable and its?",
+              "options": [
+                "Member",
+                "Header",
+                "Chapter"
+              ],
+              "answer": "Member",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is correct for struct variable s?",
+              "options": [
+                "s.name",
+                "s->name",
+                "name.s"
+              ],
+              "answer": "s.name",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Dot access can be used to read or?",
+              "options": [
+                "Update members",
+                "End loops",
+                "Resize memory"
+              ],
+              "answer": "Update members",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "The arrow operator is used instead with?",
+              "options": [
+                "Pointers to struct",
+                "Normal ints",
+                "Comments"
+              ],
+              "answer": "Pointers to struct",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dot notation improves data access?",
+              "options": [
+                "Clarity",
+                "Leaks",
+                "Confusion"
+              ],
+              "answer": "Clarity",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "Updating Members",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator accesses members of a struct variable?",
+              "options": [
+                ".",
+                "->",
+                "&"
+              ],
+              "answer": ".",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "In student.age, age is a struct?",
+              "options": [
+                "Member",
+                "Pointer",
+                "Loop"
+              ],
+              "answer": "Member",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "The dot operator connects a struct variable and its?",
+              "options": [
+                "Member",
+                "Header",
+                "Chapter"
+              ],
+              "answer": "Member",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is correct for struct variable s?",
+              "options": [
+                "s.name",
+                "s->name",
+                "name.s"
+              ],
+              "answer": "s.name",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Dot access can be used to read or?",
+              "options": [
+                "Update members",
+                "End loops",
+                "Resize memory"
+              ],
+              "answer": "Update members",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "The arrow operator is used instead with?",
+              "options": [
+                "Pointers to struct",
+                "Normal ints",
+                "Comments"
+              ],
+              "answer": "Pointers to struct",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dot notation improves data access?",
+              "options": [
+                "Clarity",
+                "Leaks",
+                "Confusion"
+              ],
+              "answer": "Clarity",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Dot Operator Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which operator accesses members of a struct variable?",
+              "options": [
+                ".",
+                "->",
+                "&"
+              ],
+              "answer": ".",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "In student.age, age is a struct?",
+              "options": [
+                "Member",
+                "Pointer",
+                "Loop"
+              ],
+              "answer": "Member",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "The dot operator connects a struct variable and its?",
+              "options": [
+                "Member",
+                "Header",
+                "Chapter"
+              ],
+              "answer": "Member",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Which is correct for struct variable s?",
+              "options": [
+                "s.name",
+                "s->name",
+                "name.s"
+              ],
+              "answer": "s.name",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Dot access can be used to read or?",
+              "options": [
+                "Update members",
+                "End loops",
+                "Resize memory"
+              ],
+              "answer": "Update members",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "The arrow operator is used instead with?",
+              "options": [
+                "Pointers to struct",
+                "Normal ints",
+                "Comments"
+              ],
+              "answer": "Pointers to struct",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Dot notation improves data access?",
+              "options": [
+                "Clarity",
+                "Leaks",
+                "Confusion"
+              ],
+              "answer": "Clarity",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    },
+    {
+      "subtopic_id": 3,
+      "subtopic_name": "Arrays of Folders",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Struct Arrays",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Array of struct means?",
+              "options": [
+                "Multiple struct objects",
+                "Single object",
+                "Loop"
+              ],
+              "answer": "Multiple struct objects",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Used for?",
+              "options": [
+                "Database-like storage",
+                "Loop only",
+                "Header"
+              ],
+              "answer": "Database-like storage",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Access element?",
+              "options": [
+                "arr[i].x",
+                "arr.x",
+                "arr->x"
+              ],
+              "answer": "arr[i].x",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Array index starts?",
+              "options": [
+                "0",
+                "1",
+                "2"
+              ],
+              "answer": "0",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "Struct array used for?",
+              "options": [
+                "Multiple records",
+                "Single value",
+                "Loop"
+              ],
+              "answer": "Multiple records",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "Which is correct?",
+              "options": [
+                "struct A arr[5];",
+                "A arr;",
+                "arr[5];"
+              ],
+              "answer": "struct A arr[5];",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Useful in?",
+              "options": [
+                "Student data",
+                "Loop only",
+                "Header"
+              ],
+              "answer": "Student data",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "Records In Arrays",
+          "questions": [
+            {
+              "id": 1,
+              "question": "An array of structs stores many?",
+              "options": [
+                "Records of the same format",
+                "Loop headers",
+                "Single chars"
+              ],
+              "answer": "Records of the same format",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which syntax accesses the age of the third record?",
+              "options": [
+                "arr[2].age",
+                "arr.age[2]",
+                "arr->2.age"
+              ],
+              "answer": "arr[2].age",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Array indexing for struct arrays starts at?",
+              "options": [
+                "0",
+                "1",
+                "Depends on header"
+              ],
+              "answer": "0",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Arrays of structs combine arrays with?",
+              "options": [
+                "Structures",
+                "Pointers only",
+                "Typedef only"
+              ],
+              "answer": "Structures",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "A student list is a good example of an?",
+              "options": [
+                "Array of structs",
+                "Int pointer",
+                "String terminator"
+              ],
+              "answer": "Array of structs",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "To process every record, programmers often use a?",
+              "options": [
+                "Loop",
+                "Single if only",
+                "No indexing"
+              ],
+              "answer": "Loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Struct arrays help organize related?",
+              "options": [
+                "Data records",
+                "Header files",
+                "Comments"
+              ],
+              "answer": "Data records",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "Traversing Struct Arrays",
+          "questions": [
+            {
+              "id": 1,
+              "question": "An array of structs stores many?",
+              "options": [
+                "Records of the same format",
+                "Loop headers",
+                "Single chars"
+              ],
+              "answer": "Records of the same format",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which syntax accesses the age of the third record?",
+              "options": [
+                "arr[2].age",
+                "arr.age[2]",
+                "arr->2.age"
+              ],
+              "answer": "arr[2].age",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Array indexing for struct arrays starts at?",
+              "options": [
+                "0",
+                "1",
+                "Depends on header"
+              ],
+              "answer": "0",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Arrays of structs combine arrays with?",
+              "options": [
+                "Structures",
+                "Pointers only",
+                "Typedef only"
+              ],
+              "answer": "Structures",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "A student list is a good example of an?",
+              "options": [
+                "Array of structs",
+                "Int pointer",
+                "String terminator"
+              ],
+              "answer": "Array of structs",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "To process every record, programmers often use a?",
+              "options": [
+                "Loop",
+                "Single if only",
+                "No indexing"
+              ],
+              "answer": "Loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Struct arrays help organize related?",
+              "options": [
+                "Data records",
+                "Header files",
+                "Comments"
+              ],
+              "answer": "Data records",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Struct Array Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "An array of structs stores many?",
+              "options": [
+                "Records of the same format",
+                "Loop headers",
+                "Single chars"
+              ],
+              "answer": "Records of the same format",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Which syntax accesses the age of the third record?",
+              "options": [
+                "arr[2].age",
+                "arr.age[2]",
+                "arr->2.age"
+              ],
+              "answer": "arr[2].age",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Array indexing for struct arrays starts at?",
+              "options": [
+                "0",
+                "1",
+                "Depends on header"
+              ],
+              "answer": "0",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "Arrays of structs combine arrays with?",
+              "options": [
+                "Structures",
+                "Pointers only",
+                "Typedef only"
+              ],
+              "answer": "Structures",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "A student list is a good example of an?",
+              "options": [
+                "Array of structs",
+                "Int pointer",
+                "String terminator"
+              ],
+              "answer": "Array of structs",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "To process every record, programmers often use a?",
+              "options": [
+                "Loop",
+                "Single if only",
+                "No indexing"
+              ],
+              "answer": "Loop",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "Struct arrays help organize related?",
+              "options": [
+                "Data records",
+                "Header files",
+                "Comments"
+              ],
+              "answer": "Data records",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    },
+    {
+      "subtopic_id": 4,
+      "subtopic_name": "Typedef",
+      "quizzes": [
+        {
+          "quiz_id": 1,
+          "quiz_title": "Typedef Basics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "typedef is used for?",
+              "options": [
+                "Rename type",
+                "Loop",
+                "Print"
+              ],
+              "answer": "Rename type",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "typedef makes code?",
+              "options": [
+                "Simpler",
+                "Complex",
+                "Slow"
+              ],
+              "answer": "Simpler",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "typedef struct A B means?",
+              "options": [
+                "B is alias of A",
+                "A is alias of B",
+                "Loop"
+              ],
+              "answer": "B is alias of A",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "typedef avoids?",
+              "options": [
+                "Long names",
+                "Loops",
+                "Variables"
+              ],
+              "answer": "Long names",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "typedef creates?",
+              "options": [
+                "Alias name",
+                "Loop",
+                "Function"
+              ],
+              "answer": "Alias name",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "typedef works with?",
+              "options": [
+                "Data types",
+                "Loops",
+                "Print"
+              ],
+              "answer": "Data types",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "typedef improves?",
+              "options": [
+                "Readability",
+                "Errors",
+                "Loops"
+              ],
+              "answer": "Readability",
+              "xp": 5,
+              "incorrect": "0"
+            }
+          ]
+        },
+        {
+          "quiz_title": "Typedef In Practice",
+          "questions": [
+            {
+              "id": 1,
+              "question": "typedef creates an alias for a?",
+              "options": [
+                "Type",
+                "Loop",
+                "Memory leak"
+              ],
+              "answer": "Type",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Why use typedef with structs?",
+              "options": [
+                "To simplify names",
+                "To remove members",
+                "To allocate memory"
+              ],
+              "answer": "To simplify names",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Does typedef change memory layout?",
+              "options": [
+                "No",
+                "Yes always",
+                "Only for arrays"
+              ],
+              "answer": "No",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "typedef mainly improves code?",
+              "options": [
+                "Readability",
+                "Loop speed",
+                "Pointer size"
+              ],
+              "answer": "Readability",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "A good typedef name should be?",
+              "options": [
+                "Meaningful",
+                "Random punctuation",
+                "A chapter number"
+              ],
+              "answer": "Meaningful",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "typedef works well with structs, pointers, and primitive?",
+              "options": [
+                "Types",
+                "Comments",
+                "Headers"
+              ],
+              "answer": "Types",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "The main benefit of typedef is convenient?",
+              "options": [
+                "Naming",
+                "Allocation",
+                "Loop control"
+              ],
+              "answer": "Naming",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 2
+        },
+        {
+          "quiz_title": "Aliases And Clarity",
+          "questions": [
+            {
+              "id": 1,
+              "question": "typedef creates an alias for a?",
+              "options": [
+                "Type",
+                "Loop",
+                "Memory leak"
+              ],
+              "answer": "Type",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Why use typedef with structs?",
+              "options": [
+                "To simplify names",
+                "To remove members",
+                "To allocate memory"
+              ],
+              "answer": "To simplify names",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Does typedef change memory layout?",
+              "options": [
+                "No",
+                "Yes always",
+                "Only for arrays"
+              ],
+              "answer": "No",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "typedef mainly improves code?",
+              "options": [
+                "Readability",
+                "Loop speed",
+                "Pointer size"
+              ],
+              "answer": "Readability",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "A good typedef name should be?",
+              "options": [
+                "Meaningful",
+                "Random punctuation",
+                "A chapter number"
+              ],
+              "answer": "Meaningful",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "typedef works well with structs, pointers, and primitive?",
+              "options": [
+                "Types",
+                "Comments",
+                "Headers"
+              ],
+              "answer": "Types",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "The main benefit of typedef is convenient?",
+              "options": [
+                "Naming",
+                "Allocation",
+                "Loop control"
+              ],
+              "answer": "Naming",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 3
+        },
+        {
+          "quiz_title": "Typedef Mastery",
+          "questions": [
+            {
+              "id": 1,
+              "question": "typedef creates an alias for a?",
+              "options": [
+                "Type",
+                "Loop",
+                "Memory leak"
+              ],
+              "answer": "Type",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 2,
+              "question": "Why use typedef with structs?",
+              "options": [
+                "To simplify names",
+                "To remove members",
+                "To allocate memory"
+              ],
+              "answer": "To simplify names",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 3,
+              "question": "Does typedef change memory layout?",
+              "options": [
+                "No",
+                "Yes always",
+                "Only for arrays"
+              ],
+              "answer": "No",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 4,
+              "question": "typedef mainly improves code?",
+              "options": [
+                "Readability",
+                "Loop speed",
+                "Pointer size"
+              ],
+              "answer": "Readability",
+              "xp": 5,
+              "incorrect": "0"
+            },
+            {
+              "id": 5,
+              "question": "A good typedef name should be?",
+              "options": [
+                "Meaningful",
+                "Random punctuation",
+                "A chapter number"
+              ],
+              "answer": "Meaningful",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 6,
+              "question": "typedef works well with structs, pointers, and primitive?",
+              "options": [
+                "Types",
+                "Comments",
+                "Headers"
+              ],
+              "answer": "Types",
+              "xp": 7,
+              "incorrect": "0"
+            },
+            {
+              "id": 7,
+              "question": "The main benefit of typedef is convenient?",
+              "options": [
+                "Naming",
+                "Allocation",
+                "Loop control"
+              ],
+              "answer": "Naming",
+              "xp": 7,
+              "incorrect": "0"
+            }
+          ],
+          "quiz_id": 4
+        }
+      ]
+    }
+  ]
+}
