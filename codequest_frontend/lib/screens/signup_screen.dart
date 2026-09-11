@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hackmol7/providers/quest_provider.dart';
 import 'package:hackmol7/screens/language_selection_screen.dart';
+import 'package:hackmol7/screens/login_screen.dart';
 import 'package:hackmol7/services/auth_service.dart';
 import 'package:hackmol7/widgets/cyber_button.dart';
 import 'package:provider/provider.dart';
@@ -116,7 +117,7 @@ class _SignupScreenState extends State<SignupScreen> {
                   );
 
                   try {
-                    bool success = await AuthService().register(
+                    final authResult = await AuthService().registerWithResult(
                       _usernameController.text.trim(),
                       _emailController.text.trim(),
                       _passwordController.text.trim(),
@@ -129,7 +130,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       rootNavigator: true,
                     ).pop(); // Specifically closes the dialog
 
-                    if (success) {
+                    if (authResult.success) {
                       await Provider.of<QuestProvider>(
                         context,
                         listen: false,
@@ -143,9 +144,19 @@ class _SignupScreenState extends State<SignupScreen> {
                     } else {
                       // Handle logic error (e.g. Email taken)
                       ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text(
-                            "Signup failed. Email might be in use.",
+                        SnackBar(
+                          content: Text(authResult.message),
+                          action: SnackBarAction(
+                            label: 'LOGIN',
+                            textColor: Colors.cyanAccent,
+                            onPressed: () {
+                              Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const LoginScreen(),
+                                ),
+                              );
+                            },
                           ),
                         ),
                       );
