@@ -37,9 +37,9 @@ class AppColors {
 
   // --- Neon Glow Effects ---
   // Use these in BoxShadows to get that "Cyber" look
-  static Color primaryGlow = const Color(0xFF22D3EE).withOpacity(0.3);
-  static Color secondaryGlow = const Color(0xFFA855F7).withOpacity(0.3);
-  static Color accentGlow = const Color(0xFFF472B6).withOpacity(0.3);
+  static Color primaryGlow = const Color(0xFF22D3EE).withValues(alpha: 0.3);
+  static Color secondaryGlow = const Color(0xFFA855F7).withValues(alpha: 0.3);
+  static Color accentGlow = const Color(0xFFF472B6).withValues(alpha: 0.3);
 
   // --- Gradients ---
   static const LinearGradient primaryGradient = LinearGradient(

@@ -50,7 +50,7 @@ class AccountScreen extends StatelessWidget {
             ),
             _buildInfoCard(
               "Username",
-              "@${user?.username?.toLowerCase().replaceAll(' ', '.') ?? 'aryan.codes'}",
+              "@${user?.username.toLowerCase().replaceAll(' ', '.') ?? 'aryan.codes'}",
             ),
 
             const SizedBox(height: 30),

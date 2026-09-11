@@ -24,7 +24,7 @@ class LanguageSwitcherPill extends StatelessWidget {
         decoration: BoxDecoration(
           color: AppColors.surface,
           borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: AppColors.primary.withOpacity(0.4)),
+          border: Border.all(color: AppColors.primary.withValues(alpha: 0.4)),
         ),
         child: Row(
           mainAxisSize: MainAxisSize.min,
@@ -123,7 +123,7 @@ class _LanguageSwitcherSheet extends StatelessWidget {
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
                   color: isCurrent
-                      ? AppColors.primary.withOpacity(0.12)
+                      ? AppColors.primary.withValues(alpha: 0.12)
                       : AppColors.surface,
                   borderRadius: BorderRadius.circular(16),
                   border: Border.all(
@@ -177,7 +177,7 @@ class _LanguageSwitcherSheet extends StatelessWidget {
       return Container(
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
         decoration: BoxDecoration(
-          color: AppColors.primary.withOpacity(0.2),
+          color: AppColors.primary.withValues(alpha: 0.2),
           borderRadius: BorderRadius.circular(20),
         ),
         child: const Text(
@@ -200,7 +200,7 @@ class _LanguageSwitcherSheet extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.05),
+        color: Colors.white.withValues(alpha: 0.05),
         borderRadius: BorderRadius.circular(20),
         border: Border.all(color: Colors.white12),
       ),

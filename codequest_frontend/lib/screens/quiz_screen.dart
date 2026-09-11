@@ -333,10 +333,10 @@ class _QuizScreenState extends State<QuizScreen>
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
               decoration: BoxDecoration(
-                color: _typeColor(q.questionType).withOpacity(0.15),
+                color: _typeColor(q.questionType).withValues(alpha: 0.15),
                 borderRadius: BorderRadius.circular(8),
                 border: Border.all(
-                  color: _typeColor(q.questionType).withOpacity(0.4),
+                  color: _typeColor(q.questionType).withValues(alpha: 0.4),
                 ),
               ),
               child: Text(
@@ -353,7 +353,7 @@ class _QuizScreenState extends State<QuizScreen>
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
               decoration: BoxDecoration(
-                color: Colors.amber.withOpacity(0.15),
+                color: Colors.amber.withValues(alpha: 0.15),
                 borderRadius: BorderRadius.circular(8),
               ),
               child: Text(
@@ -410,10 +410,10 @@ class _QuizScreenState extends State<QuizScreen>
         if (_isAnswerChecked) {
           if (isCorrectOpt) {
             border = Colors.greenAccent;
-            bg = Colors.greenAccent.withOpacity(0.07);
+            bg = Colors.greenAccent.withValues(alpha: 0.07);
           } else if (isSelected) {
             border = Colors.redAccent;
-            bg = Colors.redAccent.withOpacity(0.07);
+            bg = Colors.redAccent.withValues(alpha: 0.07);
           }
         }
         return GestureDetector(
@@ -473,7 +473,7 @@ class _QuizScreenState extends State<QuizScreen>
       height: 32,
       decoration: BoxDecoration(
         color: isSelected && !_isAnswerChecked
-            ? AppColors.primary.withOpacity(0.15)
+            ? AppColors.primary.withValues(alpha: 0.15)
             : Colors.white10,
         borderRadius: BorderRadius.circular(8),
       ),
@@ -507,10 +507,10 @@ class _QuizScreenState extends State<QuizScreen>
         if (_isAnswerChecked) {
           if (isCorrectOpt) {
             border = Colors.greenAccent;
-            bg = Colors.greenAccent.withOpacity(0.07);
+            bg = Colors.greenAccent.withValues(alpha: 0.07);
           } else if (isSelected) {
             border = Colors.redAccent;
-            bg = Colors.redAccent.withOpacity(0.07);
+            bg = Colors.redAccent.withValues(alpha: 0.07);
           }
         }
         return Expanded(
@@ -679,17 +679,17 @@ class _QuizScreenState extends State<QuizScreen>
 
             if (isSelected && !_isAnswerChecked) {
               border = AppColors.primary;
-              bg = AppColors.primary.withOpacity(0.1);
+              bg = AppColors.primary.withValues(alpha: 0.1);
               text = AppColors.primary;
             }
             if (_isAnswerChecked) {
               if (isCorrectOpt) {
                 border = Colors.greenAccent;
-                bg = Colors.greenAccent.withOpacity(0.08);
+                bg = Colors.greenAccent.withValues(alpha: 0.08);
                 text = Colors.greenAccent;
               } else if (isSelected) {
                 border = Colors.redAccent;
-                bg = Colors.redAccent.withOpacity(0.08);
+                bg = Colors.redAccent.withValues(alpha: 0.08);
                 text = Colors.redAccent;
               }
             }
@@ -770,12 +770,12 @@ class _QuizScreenState extends State<QuizScreen>
                   ),
                 if (i < blankCount)
                   DragTarget<String>(
-                    onWillAccept: (_) =>
+                    onWillAcceptWithDetails: (_) =>
                         !_isAnswerChecked && _placedTokens[i].isEmpty,
-                    onAccept: (token) {
+                    onAcceptWithDetails: (details) {
                       setState(() {
-                        _placedTokens[i] = token;
-                        _availableTokens.remove(token);
+                        _placedTokens[i] = details.data;
+                        _availableTokens.remove(details.data);
                       });
                     },
                     builder: (_, candidates, __) {
@@ -803,10 +803,10 @@ class _QuizScreenState extends State<QuizScreen>
                           constraints: const BoxConstraints(minWidth: 60),
                           decoration: BoxDecoration(
                             color: hovering
-                                ? AppColors.primary.withOpacity(0.15)
+                                ? AppColors.primary.withValues(alpha: 0.15)
                                 : (filled
-                                      ? AppColors.primary.withOpacity(0.1)
-                                      : Colors.white.withOpacity(0.05)),
+                                      ? AppColors.primary.withValues(alpha: 0.1)
+                                      : Colors.white.withValues(alpha: 0.05)),
                             borderRadius: BorderRadius.circular(8),
                             border: Border.all(
                               color: _isAnswerChecked
@@ -816,8 +816,8 @@ class _QuizScreenState extends State<QuizScreen>
                                   : (hovering
                                         ? AppColors.primary
                                         : (filled
-                                              ? AppColors.primary.withOpacity(
-                                                  0.5,
+                                              ? AppColors.primary.withValues(
+                                                  alpha: 0.5,
                                                 )
                                               : Colors.white24)),
                               width: 1.5,
@@ -938,9 +938,9 @@ class _QuizScreenState extends State<QuizScreen>
           Container(
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: Colors.greenAccent.withOpacity(0.05),
+              color: Colors.greenAccent.withValues(alpha: 0.05),
               borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: Colors.greenAccent.withOpacity(0.3)),
+              border: Border.all(color: Colors.greenAccent.withValues(alpha: 0.3)),
             ),
             child: Text(
               q.answer,
@@ -1005,13 +1005,13 @@ class _QuizScreenState extends State<QuizScreen>
       padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
       decoration: BoxDecoration(
         color: _isCorrect
-            ? Colors.greenAccent.withOpacity(0.12)
-            : Colors.redAccent.withOpacity(0.12),
+            ? Colors.greenAccent.withValues(alpha: 0.12)
+            : Colors.redAccent.withValues(alpha: 0.12),
         border: Border(
           top: BorderSide(
             color: _isCorrect
-                ? Colors.greenAccent.withOpacity(0.4)
-                : Colors.redAccent.withOpacity(0.4),
+                ? Colors.greenAccent.withValues(alpha: 0.4)
+                : Colors.redAccent.withValues(alpha: 0.4),
           ),
         ),
       ),
@@ -1065,9 +1065,9 @@ class _QuizScreenState extends State<QuizScreen>
                   vertical: 8,
                 ),
                 decoration: BoxDecoration(
-                  color: Colors.cyanAccent.withOpacity(0.08),
+                  color: Colors.cyanAccent.withValues(alpha: 0.08),
                   borderRadius: BorderRadius.circular(10),
-                  border: Border.all(color: Colors.cyanAccent.withOpacity(0.3)),
+                  border: Border.all(color: Colors.cyanAccent.withValues(alpha: 0.3)),
                 ),
                 child: const Row(
                   mainAxisSize: MainAxisSize.min,
@@ -1100,9 +1100,9 @@ class _QuizScreenState extends State<QuizScreen>
   Widget _buildBottomBar() {
     final isLast = _currentPage == widget.questions.length - 1;
     String label;
-    if (!_isAnswerChecked)
+    if (!_isAnswerChecked) {
       label = 'CHECK';
-    else if (!isLast)
+    } else if (!isLast)
       label = 'CONTINUE';
     else
       label = 'FINISH';
@@ -1172,7 +1172,7 @@ class _BlankBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Color border = AppColors.primary.withOpacity(0.5);
+    Color border = AppColors.primary.withValues(alpha: 0.5);
     Color text = Colors.white;
     if (isCorrect == true) border = Colors.greenAccent;
     if (isCorrect == false) border = Colors.redAccent;
@@ -1182,7 +1182,7 @@ class _BlankBox extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
       constraints: const BoxConstraints(minWidth: 70),
       decoration: BoxDecoration(
-        color: border.withOpacity(0.1),
+        color: border.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(6),
         border: Border.all(color: border, width: 2),
       ),
@@ -1220,7 +1220,7 @@ class _TokenChip extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
         decoration: BoxDecoration(
           color: isDragging
-              ? AppColors.primary.withOpacity(0.3)
+              ? AppColors.primary.withValues(alpha: 0.3)
               : AppColors.surface,
           borderRadius: BorderRadius.circular(10),
           border: Border.all(
@@ -1230,7 +1230,7 @@ class _TokenChip extends StatelessWidget {
           boxShadow: isDragging
               ? [
                   BoxShadow(
-                    color: AppColors.primary.withOpacity(0.3),
+                    color: AppColors.primary.withValues(alpha: 0.3),
                     blurRadius: 12,
                   ),
                 ]
@@ -1262,7 +1262,7 @@ class _CodeLineRow extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
       decoration: BoxDecoration(
         border: Border(
-          bottom: BorderSide(color: Colors.white.withOpacity(0.05)),
+          bottom: BorderSide(color: Colors.white.withValues(alpha: 0.05)),
         ),
       ),
       child: Row(
@@ -1340,9 +1340,9 @@ class _ResultDialog extends StatelessWidget {
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
               decoration: BoxDecoration(
-                color: Colors.amber.withOpacity(0.1),
+                color: Colors.amber.withValues(alpha: 0.1),
                 borderRadius: BorderRadius.circular(14),
-                border: Border.all(color: Colors.amber.withOpacity(0.3)),
+                border: Border.all(color: Colors.amber.withValues(alpha: 0.3)),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -1419,8 +1419,6 @@ class _AskAISheetState extends State<_AskAISheet> {
   // so it is never shipped inside the app binary.
   final String _apiKey = dotenv.env['ANTHROPIC_API_KEY'] ?? '';
 
-  final http.Client _client = http.Client();
-
   @override
   void initState() {
     super.initState();
@@ -1489,11 +1487,12 @@ class _AskAISheetState extends State<_AskAISheet> {
         });
       }
     } catch (e) {
-      if (mounted)
+      if (mounted) {
         setState(() {
           _isLoading = false;
           _hasError = true;
         });
+      }
     }
   }
 
@@ -1529,7 +1528,7 @@ class _AskAISheetState extends State<_AskAISheet> {
                 Container(
                   padding: const EdgeInsets.all(7),
                   decoration: BoxDecoration(
-                    color: Colors.cyanAccent.withOpacity(0.12),
+                    color: Colors.cyanAccent.withValues(alpha: 0.12),
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: const Icon(
@@ -1618,7 +1617,7 @@ class _AskAISheetState extends State<_AskAISheet> {
         Container(
           padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(
-            color: Colors.white.withOpacity(0.04),
+            color: Colors.white.withValues(alpha: 0.04),
             borderRadius: BorderRadius.circular(12),
           ),
           child: Column(

@@ -141,7 +141,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Container(
       padding: const EdgeInsets.fromLTRB(20, 50, 20, 16),
       decoration: BoxDecoration(
-        color: AppColors.background.withOpacity(0.95),
+        color: AppColors.background.withValues(alpha: 0.95),
         border: const Border(bottom: BorderSide(color: Colors.white10)),
       ),
       child: Column(
@@ -221,7 +221,7 @@ class _HomeScreenState extends State<HomeScreen> {
     width: 4, height: 40,
     margin: const EdgeInsets.symmetric(vertical: 8),
     decoration: BoxDecoration(
-      color: isLocked ? Colors.white.withOpacity(0.05) : Colors.white10,
+      color: isLocked ? Colors.white.withValues(alpha: 0.05) : Colors.white10,
       borderRadius: BorderRadius.circular(2),
     ),
   );
@@ -244,7 +244,7 @@ class _HomeScreenState extends State<HomeScreen> {
             shape: BoxShape.circle, color: color,
             border: isLocked ? Border.all(color: Colors.white10, width: 2) : null,
             boxShadow: isLocked ? [] : [BoxShadow(
-                color: AppColors.secondaryGlow.withOpacity(0.3),
+                color: AppColors.secondaryGlow.withValues(alpha: 0.3),
                 blurRadius: 20, spreadRadius: 2)],
           ),
           child: Icon(icon,

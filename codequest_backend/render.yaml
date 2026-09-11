@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: codequest-backend
+    env: node
+    region: singapore
+    plan: free
+    rootDir: codequest_backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 5050
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGODB_URI
+        sync: false

@@ -111,7 +111,7 @@ class ProfileScreen extends StatelessWidget {
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
-          colors: [AppColors.primary.withOpacity(0.2), AppColors.background],
+          colors: [AppColors.primary.withValues(alpha: 0.2), AppColors.background],
         ),
       ),
       child: Column(
@@ -250,7 +250,7 @@ class ProfileScreen extends StatelessWidget {
         ),
         value: value,
         onChanged: (v) {},
-        activeColor: Colors.greenAccent,
+        activeThumbColor: Colors.greenAccent,
       ),
     );
   }

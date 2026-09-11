@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'widgets/cyberdeck_frame.dart';
 //import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:hackmol7/screens/splash.dart';
 import 'package:hackmol7/services/notification_service.dart';
@@ -43,7 +44,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'CodeQuest',
       theme: AppTheme.darkTheme,
-      // 3. Using a Consumer ensures that if data loads late, the UI updates
+      builder: (context, child) {
+        return CyberdeckFrame(child: child ?? const SizedBox.shrink());
+      },
       home: Consumer<QuestProvider>(
         builder: (context, provider, _) {
           if (provider.isLoading) {

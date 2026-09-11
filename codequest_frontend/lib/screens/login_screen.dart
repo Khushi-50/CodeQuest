@@ -181,7 +181,7 @@ class _LoginScreenState extends State<LoginScreen> {
         children: [
           Icon(Icons.g_mobiledata, size: 30, color: AppColors.primary),
           SizedBox(width: 12),
-          const Text(
+          Text(
             'Continue with Google',
             style: TextStyle(color: AppColors.textPrimary),
           ),

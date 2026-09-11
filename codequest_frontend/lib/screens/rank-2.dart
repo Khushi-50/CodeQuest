@@ -5,6 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 import '../providers/quest_provider.dart';
 import '../ui/appcolors.dart';
+import '../config/app_config.dart';
 
 class LeaderboardEntry {
   final String username;
@@ -31,12 +32,9 @@ class _RankScreenState extends State<RankScreen>
     with SingleTickerProviderStateMixin {
   List<LeaderboardEntry> _entries = [];
   bool _isLoading = true;
-  String? _error;
   late AnimationController _animController;
 
-  // ── Android emulator needs 10.0.2.2, iOS uses localhost.
-  // Adjust this to your LAN IP for physical device testing.
-  static const String _baseUrl = 'http://10.0.2.2:5050/api';
+  String get _baseUrl => AppConfig.baseUrl;
 
   @override
   void initState() {
@@ -57,7 +55,6 @@ class _RankScreenState extends State<RankScreen>
   Future<void> _fetchLeaderboard() async {
     setState(() {
       _isLoading = true;
-      _error = null;
     });
 
     try {
@@ -142,7 +139,6 @@ class _RankScreenState extends State<RankScreen>
         );
       }).toList();
       _isLoading = false;
-      _error = null; // Don't show error — show mock gracefully
     });
 
     _animController.forward(from: 0);
@@ -263,7 +259,7 @@ class _RankScreenState extends State<RankScreen>
         Expanded(
           child: Container(
             decoration: BoxDecoration(
-              color: AppColors.surface.withOpacity(0.5),
+              color: AppColors.surface.withValues(alpha: 0.5),
               borderRadius: const BorderRadius.vertical(
                 top: Radius.circular(28),
               ),
@@ -307,7 +303,7 @@ class _RankScreenState extends State<RankScreen>
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
             decoration: BoxDecoration(
-              color: AppColors.primary.withOpacity(0.2),
+              color: AppColors.primary.withValues(alpha: 0.2),
               borderRadius: BorderRadius.circular(8),
             ),
             child: const Text(
@@ -326,7 +322,7 @@ class _RankScreenState extends State<RankScreen>
           ),
           child: CircleAvatar(
             radius: 26,
-            backgroundColor: color.withOpacity(0.15),
+            backgroundColor: color.withValues(alpha: 0.15),
             child: Text(
               entry.username.isNotEmpty ? entry.username[0].toUpperCase() : '?',
               style: TextStyle(
@@ -357,7 +353,7 @@ class _RankScreenState extends State<RankScreen>
           width: 82,
           height: height,
           decoration: BoxDecoration(
-            color: color.withOpacity(0.8),
+            color: color.withValues(alpha: 0.8),
             borderRadius: const BorderRadius.vertical(top: Radius.circular(14)),
           ),
           child: Center(
@@ -374,7 +370,7 @@ class _RankScreenState extends State<RankScreen>
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
         color: entry.isCurrentUser
-            ? AppColors.primary.withOpacity(0.1)
+            ? AppColors.primary.withValues(alpha: 0.1)
             : AppColors.surface,
         borderRadius: BorderRadius.circular(14),
         border: Border.all(
@@ -398,7 +394,7 @@ class _RankScreenState extends State<RankScreen>
           const SizedBox(width: 10),
           CircleAvatar(
             radius: 16,
-            backgroundColor: AppColors.secondary.withOpacity(0.25),
+            backgroundColor: AppColors.secondary.withValues(alpha: 0.25),
             child: Text(
               entry.username[0].toUpperCase(),
               style: const TextStyle(color: Colors.white, fontSize: 13),
@@ -417,7 +413,7 @@ class _RankScreenState extends State<RankScreen>
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
             decoration: BoxDecoration(
-              color: Colors.amber.withOpacity(0.1),
+              color: Colors.amber.withValues(alpha: 0.1),
               borderRadius: BorderRadius.circular(8),
             ),
             child: Text(

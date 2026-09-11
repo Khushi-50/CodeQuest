@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 
 import { Chapter } from '../models/chapter.model.js';
 import { Course } from '../models/course.model.js';
-import { Question } from '../models/questions.models,.js';
+import { Question } from '../models/questions.model.js';
 import { Quiz } from '../models/quiz.schema.js';
 import { Subtopic } from '../models/subtopic.model.js';
 import { UserProgress } from '../models/userprogress.model.js';

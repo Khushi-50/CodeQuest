@@ -2,12 +2,12 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import '../config/app_config.dart';
 import '../models/quest_models.dart';
 import '../models/user_model.dart';
 
 class ApiService {
-  // iOS Simulator: localhost | Android emulator: 10.0.2.2 | Physical: LAN IP
-  final String baseUrl = "http://localhost:5050/api";
+  String get baseUrl => AppConfig.baseUrl;
   final storage = const FlutterSecureStorage();
 
   Future<Map<String, String>> _getHeaders() async {

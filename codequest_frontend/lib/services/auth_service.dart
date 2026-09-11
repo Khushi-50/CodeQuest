@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import '../config/app_config.dart';
 
 class AuthService {
-  // iOS Simulator uses localhost perfectly
-  final String baseUrl = "http://localhost:5050/api/user";
+  String get baseUrl => "${AppConfig.baseUrl}/user";
   final storage = const FlutterSecureStorage();
 
   // LOGIN: Returns true if token is saved, else false

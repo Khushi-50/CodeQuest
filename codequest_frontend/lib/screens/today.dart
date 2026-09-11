@@ -161,10 +161,10 @@ class _TodayScreenState extends State<TodayScreen> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
       decoration: BoxDecoration(
-        color: streak > 0 ? Colors.orange.withOpacity(0.15) : AppColors.surface,
+        color: streak > 0 ? Colors.orange.withValues(alpha: 0.15) : AppColors.surface,
         borderRadius: BorderRadius.circular(20),
         border: Border.all(
-          color: streak > 0 ? Colors.orange.withOpacity(0.4) : Colors.white10,
+          color: streak > 0 ? Colors.orange.withValues(alpha: 0.4) : Colors.white10,
         ),
       ),
       child: Row(
@@ -243,12 +243,12 @@ class _TodayScreenState extends State<TodayScreen> {
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: task.isDone
-            ? Colors.greenAccent.withOpacity(0.06)
+            ? Colors.greenAccent.withValues(alpha: 0.06)
             : AppColors.surface,
         borderRadius: BorderRadius.circular(16),
         border: Border.all(
           color: task.isDone
-              ? Colors.greenAccent.withOpacity(0.3)
+              ? Colors.greenAccent.withValues(alpha: 0.3)
               : Colors.white10,
           width: task.isDone ? 1.5 : 1,
         ),
@@ -261,7 +261,7 @@ class _TodayScreenState extends State<TodayScreen> {
             height: 44,
             decoration: BoxDecoration(
               color: task.isDone
-                  ? Colors.greenAccent.withOpacity(0.12)
+                  ? Colors.greenAccent.withValues(alpha: 0.12)
                   : AppColors.surfaceLight,
               borderRadius: BorderRadius.circular(12),
             ),

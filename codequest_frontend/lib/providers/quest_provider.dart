@@ -78,8 +78,9 @@ class QuestProvider extends ChangeNotifier with WidgetsBindingObserver {
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.paused ||
-        state == AppLifecycleState.detached)
+        state == AppLifecycleState.detached) {
       _syncToDatabase();
+    }
   }
 
   // ── STATE ─────────────────────────────────────────────────────────────────
@@ -159,8 +160,9 @@ class QuestProvider extends ChangeNotifier with WidgetsBindingObserver {
   Future<void> switchLanguage(String langId) async {
     if (_currentLanguage == langId && _courseMap.isNotEmpty) return;
     _currentLanguage = langId;
-    if (!_enrolledLanguages.contains(langId))
+    if (!_enrolledLanguages.contains(langId)) {
       _enrolledLanguages.insert(0, langId);
+    }
     _isLoading = true;
     notifyListeners();
     await _loadCourseMap(langId);

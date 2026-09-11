@@ -7,7 +7,7 @@ import { Course } from '../models/course.model.js';
 import { Chapter } from '../models/chapter.model.js';
 import { Subtopic } from '../models/subtopic.model.js';
 import { Quiz } from '../models/quiz.schema.js';
-import { Question } from '../models/questions.models,.js';
+import { Question } from '../models/questions.model.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

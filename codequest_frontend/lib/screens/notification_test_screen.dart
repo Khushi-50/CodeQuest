@@ -12,7 +12,6 @@
 //        onTap: () => Navigator.push(context, MaterialPageRoute(
 //          builder: (_) => const NotificationTestScreen())))
 
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:timezone/timezone.dart' as tz;
@@ -108,9 +107,9 @@ class _State extends State<NotificationTestScreen> {
             margin: const EdgeInsets.only(right: 12, top: 8, bottom: 8),
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
             decoration: BoxDecoration(
-              color: Colors.redAccent.withOpacity(0.2),
+              color: Colors.redAccent.withValues(alpha: 0.2),
               borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: Colors.redAccent.withOpacity(0.5)),
+              border: Border.all(color: Colors.redAccent.withValues(alpha: 0.5)),
             ),
             child: const Text('DEBUG',
                 style: TextStyle(color: Colors.redAccent,
@@ -198,9 +197,9 @@ class _State extends State<NotificationTestScreen> {
         margin: const EdgeInsets.only(bottom: 10),
         padding: const EdgeInsets.all(14),
         decoration: BoxDecoration(
-          color: color.withOpacity(0.08),
+          color: color.withValues(alpha: 0.08),
           borderRadius: BorderRadius.circular(12),
-          border: Border.all(color: color.withOpacity(0.3)),
+          border: Border.all(color: color.withValues(alpha: 0.3)),
         ),
         child: Text(label,
             style: TextStyle(color: color, fontWeight: FontWeight.bold)),
